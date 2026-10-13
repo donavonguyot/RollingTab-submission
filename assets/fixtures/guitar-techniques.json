@@ -1,0 +1,73 @@
+{
+  "id": "guitar-techniques",
+  "title": "Guitar • bend, vibrato & tremolo",
+  "notes": [
+    {
+      "id": "bend",
+      "midi": 64,
+      "start": 0.5,
+      "duration": 2.5,
+      "string": 2,
+      "fret": 5,
+      "technique": "bend",
+      "source": "authored",
+      "staffStep": 7,
+      "writtenMidi": 76,
+      "accidental": "",
+      "beam": "",
+      "tie": ""
+    },
+    {
+      "id": "vibrato",
+      "midi": 64,
+      "start": 4.0,
+      "duration": 2.2,
+      "string": 2,
+      "fret": 5,
+      "technique": "vibrato",
+      "source": "authored",
+      "staffStep": 7,
+      "writtenMidi": 76,
+      "accidental": "",
+      "beam": "",
+      "tie": ""
+    },
+    {
+      "id": "tremolo",
+      "midi": 67,
+      "start": 7.0,
+      "duration": 2.2,
+      "string": 1,
+      "fret": 3,
+      "technique": "tremolo",
+      "source": "authored",
+      "staffStep": 9,
+      "writtenMidi": 79,
+      "accidental": "",
+      "beam": "",
+      "tie": ""
+    },
+    {
+      "id": "bar-dip",
+      "midi": 60,
+      "start": 10.0,
+      "duration": 2.5,
+      "string": 3,
+      "fret": 5,
+      "technique": "bar-dip",
+      "source": "authored",
+      "staffStep": 5,
+      "writtenMidi": 72,
+      "accidental": "",
+      "beam": "",
+      "tie": ""
+    }
+  ],
+  "duration": 14.0,
+  "program": 27,
+  "guitar": true,
+  "staff": false,
+  "attribution": "Authored synthetic study",
+  "rests": [],
+  "provenance": {}
+}

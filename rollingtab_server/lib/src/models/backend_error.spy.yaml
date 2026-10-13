@@ -1,0 +1,4 @@
+exception: BackendError
+fields:
+  code: String
+  message: String

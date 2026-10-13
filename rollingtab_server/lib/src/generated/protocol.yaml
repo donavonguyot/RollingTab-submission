@@ -1,0 +1,11 @@
+emailIdp:
+  - login:
+jwtRefresh:
+  - refreshAccessToken:
+catalog:
+  - list:
+  - getArtifact:
+passages:
+  - list:
+  - save:
+  - delete:

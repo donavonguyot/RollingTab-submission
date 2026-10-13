@@ -1,0 +1,24 @@
+class: CatalogScore
+table: rollingtab_catalog
+fields:
+  cid: String
+  title: String
+  composer: String
+  artifactVersion: String
+  sourceSlot: int
+  duration: double
+  license: String
+  licenseUrl: String
+  compressedSha256: String
+  compressedBytes: int
+  logicalSha256: String
+  logicalBytes: int
+  downloadPath: String
+  recommendedStart: double?
+  recommendedEnd: double?
+  practiceFocus: String?
+  guidanceDescription: String?
+indexes:
+  catalog_cid_unique:
+    fields: cid
+    unique: true

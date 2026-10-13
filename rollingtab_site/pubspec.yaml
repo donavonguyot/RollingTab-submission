@@ -1,0 +1,13 @@
+name: rollingtab_site
+publish_to: none
+environment:
+  sdk: ^3.13.5
+dependencies:
+  jaspr: 0.23.5
+dev_dependencies:
+  build_runner: 2.15.1
+  build_web_compilers: 4.8.5
+  jaspr_builder: 0.23.5
+  jaspr_cli: 0.23.5
+jaspr:
+  mode: static

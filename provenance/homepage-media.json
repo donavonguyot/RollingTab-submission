@@ -1,0 +1,21 @@
+{
+  "scope": "App stage capture plus scheduled synthesis PCM. Approximate software alignment; not physical audiovisual latency.",
+  "fixture": "guitar-voicings",
+  "authored": true,
+  "durationSeconds": 11.9,
+  "settings": {
+    "perspective": true,
+    "overlay": false,
+    "leftHanded": false,
+    "tempo": 1,
+    "feedback": "off",
+    "loop": false
+  },
+  "soundfont": "GeneralUser GS1.471, S. Christian Collins",
+  "engine": "RollingTAB continuous SoundFont synthesis; flutter_pcm_sound 3.3.3 native output",
+  "files": {
+    "chord-handoff.mp4": "8d33d6a47880b57a5094ca69bef6879cee8d908f0b92df1353e6a67a39a0af5a",
+    "chord-handoff.jpg": "0d5bfb7440dd53b07524bb9e342339acc69cf988430db8a357645d4a32f6339c",
+    "guitar-voicings.json": "fcdbf511e4cd19c08273c8457de1fc502a093eb1140bab9e04f321981d7815e9"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "rolling-note-marketing-fixture-v1",
+  "fixture_id": "paganini-guitar",
+  "cid": "QmcmrMSehjpEW3yzzstiCECCTxLNBapeRrnQKc7rrWCB26",
+  "title": "Sonata for Violin and Guitar in E minor, Op. 3 No. 6",
+  "catalog_title": "Sonata for Violin and Guitar in Em, Op. 3, No. 6",
+  "composer": "Niccolò Paganini",
+  "license": "cc-zero",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "pdmx_schema_version": "0.3-rolling-note",
+  "compressed_bytes": 11953,
+  "compressed_sha256": "3f5e9fbe15c4b1c43c20f7d6108bcf85ccb2b4ba2c0809cf388aed18f71e70f6",
+  "raw_bytes": 260909,
+  "raw_sha256": "f40dc4bd7e195445aab7577b1ee31387ebe07a3a2532b812fb4c13fb16be686b",
+  "note_count": 740,
+  "track_count": 2,
+  "guitar_source_slot": 1,
+  "guitar_program": 24,
+  "guitar_note_count": 482,
+  "authored_string_fret_count": 0,
+  "guidance": "Inferred standard-tuning Guitar Guidance from a genuinely authored nylon-guitar track; not authored tablature.",
+  "source": "PDMX-derived score artifact; original compressed bytes and recorded CC0 declaration retained. Imported through the author's existing music tooling."
+}

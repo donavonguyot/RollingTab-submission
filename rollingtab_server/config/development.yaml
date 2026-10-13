@@ -1,0 +1,34 @@
+apiServer:
+  port: 9893
+  publicHost: localhost
+  publicPort: 9893
+  publicScheme: http
+insightsServer:
+  port: 9894
+  publicHost: localhost
+  publicPort: 9894
+  publicScheme: http
+webServer:
+  port: 9895
+  publicHost: localhost
+  publicPort: 9895
+  publicScheme: http
+database:
+  dataPath: .serverpod/development/pgdata
+  host: localhost
+  port: 54339
+  name: rollingtab
+  user: postgres
+maxRequestSize: 65536
+futureCallExecutionEnabled: false
+sessionLogs:
+  persistentEnabled: false
+  consoleEnabled: true
+authCookie:
+  name: rollingtab_auth
+  refreshName: rollingtab_refresh
+  path: /api/
+  secure: false
+  sameSite: lax
+allowedOrigins:
+  - http://localhost:9895

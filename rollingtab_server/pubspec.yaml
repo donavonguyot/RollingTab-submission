@@ -1,0 +1,16 @@
+name: rollingtab_server
+publish_to: none
+environment:
+  sdk: ^3.13.5
+dependencies:
+  serverpod: 4.0.3
+  serverpod_auth_idp_server: 4.0.3
+  serverpod_embedded_postgres: 4.0.3
+  postgres: 3.5.16
+  crypto: 3.0.7
+  archive: ^4.0.9
+  http: ^1.2.0
+dev_dependencies:
+  lints: 6.0.0
+  serverpod_test: 4.0.3
+  test: 1.31.1

@@ -1,0 +1,997 @@
+{
+  "date": "2026-10-13",
+  "historyIncluded": false,
+  "scoreCount": 5,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 292,
+      "sha256": "382bba1f5a1490aa712e5434a2cbcf11c0bd5f9c61e8174ff9ec561fd98ab53b"
+    },
+    {
+      "path": ".metadata",
+      "bytes": 1112,
+      "sha256": "4b89496cb970cee25568825c60111e10e0f379376e6cdf72a6be16b1d7903f6e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3028,
+      "sha256": "778d6d54b11ff5703c9707284ac10c3816df8316cc37857b093c897e812a58e8"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 2523,
+      "sha256": "1721386fe20622a3691878db71f8ea2d213de3fe5cd87e65c3d5cceb005cf0a2"
+    },
+    {
+      "path": "analysis_options.yaml",
+      "bytes": 149,
+      "sha256": "1361d067313cee1086f960f5457666a7209721f923d6234cbcff8eeb166f5987"
+    },
+    {
+      "path": "assets/fixtures/guitar-density.json",
+      "bytes": 103630,
+      "sha256": "96de09ede74269eb0c61101fbd5538260142a8a278f0d3934d96d7d77e5d2b3d"
+    },
+    {
+      "path": "assets/fixtures/guitar-movement.json",
+      "bytes": 6370,
+      "sha256": "be4024a721310f477d4853973f24d4a50c0cb987f18864f241c548eb1b0b9f18"
+    },
+    {
+      "path": "assets/fixtures/guitar-phrase.json",
+      "bytes": 3678,
+      "sha256": "e020f3079d373b2f21cbf5b6ebb3038d89d341cd197ce9f0cd5f1135404ab1be"
+    },
+    {
+      "path": "assets/fixtures/guitar-techniques.json",
+      "bytes": 1429,
+      "sha256": "a6d9507456271fe7a9a08958365b774aebc036714b8507b2bc3c4ce8003f19e5"
+    },
+    {
+      "path": "assets/fixtures/guitar-voicings.json",
+      "bytes": 6621,
+      "sha256": "fcdbf511e4cd19c08273c8457de1fc502a093eb1140bab9e04f321981d7815e9"
+    },
+    {
+      "path": "assets/fixtures/index.json",
+      "bytes": 90,
+      "sha256": "57dc781ec7a36995696ee693ab0137ff9aa6357bac30524c9a43c5180198d21a"
+    },
+    {
+      "path": "assets/licenses/Bravura-LICENSE.txt",
+      "bytes": 4420,
+      "sha256": "bdca252186865f3b2c0e76da4a4e335c14ba1d37f80194fca254ddfa88e84fbf"
+    },
+    {
+      "path": "assets/licenses/GeneralUser-GS-LICENSE.txt",
+      "bytes": 2286,
+      "sha256": "504008a9097405a44d5feec1c41c656440363d42d26eb3051e0590530ba969c1"
+    },
+    {
+      "path": "assets/soundfont/GeneralUser_GS.sf2",
+      "bytes": 31281186,
+      "sha256": "f45b6b4a68b6bf3d792fcbb6d7de24dc701a0f89c5900a21ef3aaece993b839a"
+    },
+    {
+      "path": "docs/DEVELOPMENT.md",
+      "bytes": 4103,
+      "sha256": "90ef3151f358f25b60cea0fd304401a6877987c77d30c2948f009999493f20ef"
+    },
+    {
+      "path": "docs/JUDGE_GUIDE.md",
+      "bytes": 2062,
+      "sha256": "ea944260d1d5b8b6001975a6f05cd9b40aff6ef0500497ea8af8a79e29e0b85e"
+    },
+    {
+      "path": "docs/SUBMISSION_HANDOFF.md",
+      "bytes": 2539,
+      "sha256": "0b67886ee55b3117a4cfc290d1d91a394ea703e79cfcc03c36b3ea4e2eecadfa"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "bytes": 3206,
+      "sha256": "4f0328d09cbc84633647cd2d20d7dcfa3e7ab0393b30cb4b94b4b80ca116e1a9"
+    },
+    {
+      "path": "hook/build.dart",
+      "bytes": 657,
+      "sha256": "74caf8c15cf90a192471875e41120685763593ad13daef1560ad40529b52d7f5"
+    },
+    {
+      "path": "lib/audio/output.dart",
+      "bytes": 3501,
+      "sha256": "a960cd1a827ba6a59907fcfcac1716185ad1e5e0c16306a968fb746bd47975d0"
+    },
+    {
+      "path": "lib/audio/transport.dart",
+      "bytes": 6517,
+      "sha256": "c70204c9a28ee9ce1e97bb6ba7e61bc0fcccb413301f066108469f6764ad008f"
+    },
+    {
+      "path": "lib/backend/connection.dart",
+      "bytes": 11050,
+      "sha256": "20f63315030c293272ca28ec86d0a50fda8861fcbc1b2d46a63ff0e67e883756"
+    },
+    {
+      "path": "lib/backend/http_client.dart",
+      "bytes": 90,
+      "sha256": "385f4559538db03153992008bb681e1dfc2ce0ce56fa3528bf11d6f6dcfd23e7"
+    },
+    {
+      "path": "lib/backend/http_client_native.dart",
+      "bytes": 88,
+      "sha256": "2a09623c505d1dbef02c4b0073df7f6f4f5168aafe71d8986a814499903788e9"
+    },
+    {
+      "path": "lib/backend/http_client_web.dart",
+      "bytes": 157,
+      "sha256": "b9995444feb800853a914e426bae15e37398050e0901598abd70866773bac0c0"
+    },
+    {
+      "path": "lib/backend/practice_library.dart",
+      "bytes": 3637,
+      "sha256": "854def6cb003a899b13fba25fd7ac9cd6ffe6fbed07a6c5dc80c97b7087fddc0"
+    },
+    {
+      "path": "lib/diagnostics/evidence_bridge.dart",
+      "bytes": 98,
+      "sha256": "5ce28422c130370e40e11b885b51ba166618c7f40e573e395ecc5b989504ed64"
+    },
+    {
+      "path": "lib/diagnostics/evidence_bridge_native.dart",
+      "bytes": 1460,
+      "sha256": "cc3e8c1756dc37c20441bb5e5f7ed3a6c62c1a8b4ffa2a55e55f462d585c8976"
+    },
+    {
+      "path": "lib/diagnostics/evidence_bridge_web.dart",
+      "bytes": 706,
+      "sha256": "c05caa0def68df638306e4420920135c629b2598a6baed105525017ea7545030"
+    },
+    {
+      "path": "lib/diagnostics/export.dart",
+      "bytes": 76,
+      "sha256": "30106181578efdb57153c24910efb7df1661460e550c812f302003fd357fc179"
+    },
+    {
+      "path": "lib/diagnostics/export_native.dart",
+      "bytes": 300,
+      "sha256": "1ddd9d389fb99f75a035827eb632f6f64dcbcfd6fed5639eacdacf36fe711cc3"
+    },
+    {
+      "path": "lib/diagnostics/export_web.dart",
+      "bytes": 810,
+      "sha256": "19aed06795e18b89e79fcc6966d0c5d91cf4258c2be1777c9348fed863346fea"
+    },
+    {
+      "path": "lib/diagnostics/metrics.dart",
+      "bytes": 2553,
+      "sha256": "36d001c8b91d3705ece0558b0bc6b595a69a2eab39969a04682ecc97433c6039"
+    },
+    {
+      "path": "lib/main.dart",
+      "bytes": 48427,
+      "sha256": "343870d2537038554ccb7d2402f6a52d0976e209d8a16bac6492354bc4331a45"
+    },
+    {
+      "path": "lib/model/music.dart",
+      "bytes": 6619,
+      "sha256": "707f54a5e8fdbe62d5bd0b2d24ad56026bfd3eff6416402c7ae6affe2098ab93"
+    },
+    {
+      "path": "lib/model/projection.dart",
+      "bytes": 6062,
+      "sha256": "1a01b9064b5cdb33038944637eb4f2490a73a0709fafdcbdc088e33492926bc3"
+    },
+    {
+      "path": "lib/model/voicing.dart",
+      "bytes": 3916,
+      "sha256": "c190038489ef77da4ec1f4bbefc5363b81cde442c3c1472d9aa078a8f8286e3e"
+    },
+    {
+      "path": "lib/surface/guitar_surface.dart",
+      "bytes": 11110,
+      "sha256": "9f74ebca902e4e8c2e399d56cb3371fcc7ee7a2438f4c11582ef96939773fdfc"
+    },
+    {
+      "path": "lib/surface/voicing_panel.dart",
+      "bytes": 13255,
+      "sha256": "2cf0b5749812c81711036115c1bc9eedaff6d335d476bdb357c91ab0fab40756"
+    },
+    {
+      "path": "lib/vendor/pdmx_document.dart",
+      "bytes": 72382,
+      "sha256": "e8bbe502015b03b67ad5294760ec8efb0b7c32edbea3c08e9899bf22ebd18303"
+    },
+    {
+      "path": "lib/widgets/slider_overlay.dart",
+      "bytes": 472,
+      "sha256": "a4977b5d043ee2184e2102831a2553dcadd302509256e4c730a0fccf976f100a"
+    },
+    {
+      "path": "lib/widgets/speed_control.dart",
+      "bytes": 2550,
+      "sha256": "2119870a4bc48377c9286d222ad9ebaa21f27b3a4b22fa201c3feaccb7487a2d"
+    },
+    {
+      "path": "macos/.gitignore",
+      "bytes": 89,
+      "sha256": "ffec1a0bbd70547186b82ad4e49089bafab2de309b89de97c776d70debb179fa"
+    },
+    {
+      "path": "macos/Flutter/Flutter-Debug.xcconfig",
+      "bytes": 125,
+      "sha256": "802714a37a8fd3065fb3d8e21cbcfbb3147c7ad25f25934b64590085aa9f5b28"
+    },
+    {
+      "path": "macos/Flutter/Flutter-Release.xcconfig",
+      "bytes": 127,
+      "sha256": "d575f436f8bab30d7096792396e73b65db242edc01913c4123d2c29e713b3a6d"
+    },
+    {
+      "path": "macos/Flutter/GeneratedPluginRegistrant.swift",
+      "bytes": 267,
+      "sha256": "52c595a14cc6f64a3cf6af54481f02a0ddc272643e536fa2bae66cd2fe1b42fd"
+    },
+    {
+      "path": "macos/Podfile",
+      "bytes": 1365,
+      "sha256": "46afee587c4ce12f5ea80942d379c6d6dc07037149e307fc30ade39a44132bb3"
+    },
+    {
+      "path": "macos/Podfile.lock",
+      "bytes": 602,
+      "sha256": "ada21c6ed29f8555488e4b267a9ca19fcc735ff5bf6d476db57e549851a5c503"
+    },
+    {
+      "path": "macos/Runner/AppDelegate.swift",
+      "bytes": 311,
+      "sha256": "ce9dbe45a57c59e85519da50a26c471615b9c8cdd85a8f4a39d2e480e62a4af4"
+    },
+    {
+      "path": "macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "bytes": 1291,
+      "sha256": "bc6ba8105ca69651aeeb77358851590de295dca04681a1d58c0f449641c242f3"
+    },
+    {
+      "path": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png",
+      "bytes": 102994,
+      "sha256": "6232e5815af17e25e0268b2fec7aea9e068cc92ec709e9605c2b31df4ff2a313"
+    },
+    {
+      "path": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png",
+      "bytes": 5680,
+      "sha256": "15591f03f31313af6fd644ed0512106cc04365130b8b73244f1cfa6dddfb4400"
+    },
+    {
+      "path": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png",
+      "bytes": 520,
+      "sha256": "cc6928b5adfc00dbf526192e2705dd9af641cdf20ab4c6c7ca7cd4936dca59f0"
+    },
+    {
+      "path": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png",
+      "bytes": 14142,
+      "sha256": "416efd77cde932d42ef34168da24dd428a495b1f4f34bbbd125a18d2add186a2"
+    },
+    {
+      "path": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png",
+      "bytes": 1066,
+      "sha256": "ae8c4458e41f1e28b1e851ed87d3268d4a0351ceea427fa2a84cc94ddfb6d4c5"
+    },
+    {
+      "path": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png",
+      "bytes": 36406,
+      "sha256": "0a91c6c1bf242e54ee179e34629e9ef3e8a6d286c0fce01e302280a8be9277e6"
+    },
+    {
+      "path": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png",
+      "bytes": 2218,
+      "sha256": "6ad229623498e5f1277800db3ab7cb11faf85eb2569e1213f7d8e55003c07b42"
+    },
+    {
+      "path": "macos/Runner/Base.lproj/MainMenu.xib",
+      "bytes": 23729,
+      "sha256": "be9e9ef8469d3262370e0f0b855ed163cbf9c8362c59e330b2ffe63b86fa42f4"
+    },
+    {
+      "path": "macos/Runner/Configs/AppInfo.xcconfig",
+      "bytes": 615,
+      "sha256": "906077036272ea383e43aabf74108338bb99d9b7ad3deba72114822451bf296d"
+    },
+    {
+      "path": "macos/Runner/Configs/Debug.xcconfig",
+      "bytes": 77,
+      "sha256": "8067d533ef6593760baad9a9855a786a7a77470fcc3f0925ec04fe43bc1ac4b0"
+    },
+    {
+      "path": "macos/Runner/Configs/Release.xcconfig",
+      "bytes": 79,
+      "sha256": "7a6a4b4d973a23052fa0a0388dd261e32d311d7b66ba1bfc3b914b361808ac61"
+    },
+    {
+      "path": "macos/Runner/Configs/Warnings.xcconfig",
+      "bytes": 580,
+      "sha256": "0e341a392b16ad302d12890aa3dac9257a6c10ece685437604259a85341645a3"
+    },
+    {
+      "path": "macos/Runner/DebugProfile.entitlements",
+      "bytes": 403,
+      "sha256": "658a8d351a819faad03df2a4da417ae52bee8f16d5a10203d50505b3af315a99"
+    },
+    {
+      "path": "macos/Runner/Info.plist",
+      "bytes": 1101,
+      "sha256": "19b90a45660776a85749c08dae5f06605fa2b734b145e9fc97ea2eaf8687bec9"
+    },
+    {
+      "path": "macos/Runner/MainFlutterWindow.swift",
+      "bytes": 1346,
+      "sha256": "e18c40401e5974b46547a96a036f7e041e8b3cff358ad4e7b86064cd14a5cace"
+    },
+    {
+      "path": "macos/Runner/Release.entitlements",
+      "bytes": 350,
+      "sha256": "f702713a9f64c5549bf415e1a11c22bb9b739e1f422a0fbfab0088a19b0c48cb"
+    },
+    {
+      "path": "macos/Runner.xcodeproj/project.pbxproj",
+      "bytes": 34351,
+      "sha256": "c2737ddb75cf9dd049af750451100ce62748ebb51da3041f418fcba2ed7c4b32"
+    },
+    {
+      "path": "macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "bytes": 238,
+      "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542"
+    },
+    {
+      "path": "macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme",
+      "bytes": 4580,
+      "sha256": "1999c859c2c0e659e752bcb426cd899eb9a7fc04b707173a662dbe5129b82a78"
+    },
+    {
+      "path": "macos/Runner.xcworkspace/contents.xcworkspacedata",
+      "bytes": 224,
+      "sha256": "465e6de5660384eb6832e8078920ba6cd5305c445cb29a24a86a2fda4aa6b67e"
+    },
+    {
+      "path": "macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "bytes": 238,
+      "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542"
+    },
+    {
+      "path": "macos/RunnerTests/RunnerTests.swift",
+      "bytes": 290,
+      "sha256": "6bc180bc77c7def7a21d197233e25dff42cc493ab9d294632edafc18fdf0ac44"
+    },
+    {
+      "path": "packages/rollingtab_audio/README.md",
+      "bytes": 473,
+      "sha256": "4226379ec44e39ef58cf4cd9a881f425c33246bf0ad9657a95e649ccaf3ee9b4"
+    },
+    {
+      "path": "packages/rollingtab_audio/lib/rollingtab_audio.dart",
+      "bytes": 74,
+      "sha256": "be9c39b58b458f1134631ea5efcb6ad52e82491853f1b146d4a3e9e7bc70e166"
+    },
+    {
+      "path": "packages/rollingtab_audio/lib/src/core.dart",
+      "bytes": 6513,
+      "sha256": "e1b3684f320e946799c2bfca960eac7b5ac90f881d555f0e200dff25f727b2c5"
+    },
+    {
+      "path": "packages/rollingtab_audio/lib/src/engine.dart",
+      "bytes": 6566,
+      "sha256": "a855cde82c91394d326b06e32dfab9a30871603e24646b1f34ddff052a9cd2a1"
+    },
+    {
+      "path": "packages/rollingtab_audio/lib/src/sink.dart",
+      "bytes": 325,
+      "sha256": "83ea6f540118da942e541cbe06bd4544264cc2b0e9551fd2b3239a3259d66123"
+    },
+    {
+      "path": "packages/rollingtab_audio/lib/src/sink_native.dart",
+      "bytes": 4036,
+      "sha256": "ecd44f2c2c03022cbc183625a47852a66ad75346b84e2d5bc8fb6551647e5788"
+    },
+    {
+      "path": "packages/rollingtab_audio/lib/src/sink_web.dart",
+      "bytes": 3118,
+      "sha256": "f6d6200251b9ee362e3408e7d811aceef42f3900b44ffafb483ff1fd8ee7dd97"
+    },
+    {
+      "path": "packages/rollingtab_audio/pubspec.yaml",
+      "bytes": 277,
+      "sha256": "b0a033e3a507853961b20045a7abd5e1ff772673db7f334ac1f26e3031cf772f"
+    },
+    {
+      "path": "provenance/homepage-media.json",
+      "bytes": 815,
+      "sha256": "23aa369332cfe5b8878a2fbf699fd8931d9676dbbf837e4ddd82a9134a07ce0f"
+    },
+    {
+      "path": "provenance/submission.json",
+      "bytes": 2020,
+      "sha256": "1bb025505d514f10d1f2eb919d5d390752f321beec72be06fc42afb775d86828"
+    },
+    {
+      "path": "pubspec.lock",
+      "bytes": 13703,
+      "sha256": "59f432870cbb67319dc96369bed3cef244256538035086c6edb9564c5ca87584"
+    },
+    {
+      "path": "pubspec.yaml",
+      "bytes": 1013,
+      "sha256": "cfeb965a89e1985ade9a06a4d7d0edf3bf1f949be865b13812d7e69b5bc9013a"
+    },
+    {
+      "path": "rollingtab_client/.gitignore",
+      "bytes": 282,
+      "sha256": "8ae52682c84e03466528d3ed068607474d3100125f176f27a02b273a1f0f409d"
+    },
+    {
+      "path": "rollingtab_client/README.md",
+      "bytes": 179,
+      "sha256": "176973f6d3168c9ab254ea5fd5e7045fcbeaf151e756df47f6d14cf082611094"
+    },
+    {
+      "path": "rollingtab_client/analysis_options.yaml",
+      "bytes": 416,
+      "sha256": "48d7067a8eb783fdfe708ec0b926d55413ac8def809490bab21a2f21daa9acf9"
+    },
+    {
+      "path": "rollingtab_client/dartdoc_options.yaml",
+      "bytes": 92,
+      "sha256": "97cb7fb44b8e9f901deb0c2a807b0cd557745daa5ef15d9f37af58ee62a08060"
+    },
+    {
+      "path": "rollingtab_client/lib/rollingtab_client.dart",
+      "bytes": 94,
+      "sha256": "2d2c6302f8791a868037270ddb4be589a8728a8aa25d82a6b2e84c6adab18b5c"
+    },
+    {
+      "path": "rollingtab_client/lib/src/protocol/backend_error.dart",
+      "bytes": 2301,
+      "sha256": "30e6e0fd7cc41462ab18b7af3cfade27f0cef5d0ead06eea6831d3b0f9c96afd"
+    },
+    {
+      "path": "rollingtab_client/lib/src/protocol/catalog_score.dart",
+      "bytes": 9237,
+      "sha256": "2313c42f480c0f82a8d4c6bc575ceb36f82faaa1fa00b711dcaec964f170aa7d"
+    },
+    {
+      "path": "rollingtab_client/lib/src/protocol/client.dart",
+      "bytes": 6957,
+      "sha256": "91dd7a6ce7fc5435a8c993dcc7441df671874d93eef43bea7b8e7266a72ebcc3"
+    },
+    {
+      "path": "rollingtab_client/lib/src/protocol/passage_input.dart",
+      "bytes": 5281,
+      "sha256": "c10bee97cbc7e6e3a5c919a203daa54196cfd7ecaf1e2441bb2009d670f3f0f4"
+    },
+    {
+      "path": "rollingtab_client/lib/src/protocol/protocol.dart",
+      "bytes": 7114,
+      "sha256": "ecb8402bb5a1f4e3bae3689d630da7a090ffa919422b3c765bf05fed2fd3da00"
+    },
+    {
+      "path": "rollingtab_client/lib/src/protocol/saved_passage.dart",
+      "bytes": 6810,
+      "sha256": "2335038d31d0ef4514e4320b9d49754983f5b2461610c6b347314ad690e477c2"
+    },
+    {
+      "path": "rollingtab_client/pubspec.yaml",
+      "bytes": 184,
+      "sha256": "cb0851f3ef2d2339180de08f82930c1285c3afe9637acbf6bd77e139208e71c2"
+    },
+    {
+      "path": "rollingtab_server/.gitignore",
+      "bytes": 486,
+      "sha256": "9e25503b45a3ae5f859ffd32a250e9b6adb7e15bb3ed4fa881967bf828d0067e"
+    },
+    {
+      "path": "rollingtab_server/README.md",
+      "bytes": 934,
+      "sha256": "5e28cb788d5dfe28427b7558b30c1f212bb7072e80d29630a16f19938cab1830"
+    },
+    {
+      "path": "rollingtab_server/analysis_options.yaml",
+      "bytes": 1147,
+      "sha256": "ef0b8b4c899bb0d14fe79fe67f3c9615781707bcc13902721799a34b5b5ebaa8"
+    },
+    {
+      "path": "rollingtab_server/assets/scores/SOURCE_CREDITS.md",
+      "bytes": 1637,
+      "sha256": "3d7b9b5aeef7c9d6092f957d6cf74ff09134224d07057cfdcafbfe7c02ce0d25"
+    },
+    {
+      "path": "rollingtab_server/assets/scores/bach-bourree.pdmx.json.gz",
+      "bytes": 8009,
+      "sha256": "db0fbc96fb53c2c7f316d5730c7ccf27bb73fc62cc775d611ca8e0dfda6318f8"
+    },
+    {
+      "path": "rollingtab_server/assets/scores/bach-bourree.provenance.json",
+      "bytes": 3393,
+      "sha256": "b9b56dc643f4eb1c51566d7c3498bd6c3e5cb60d33071f162341b74e44556709"
+    },
+    {
+      "path": "rollingtab_server/assets/scores/carcassi-11.pdmx.json.gz",
+      "bytes": 4514,
+      "sha256": "4e99d5aceff8d4bd7543298b348700eacaccb5c68bc5a35ebbd07dedf9c3b821"
+    },
+    {
+      "path": "rollingtab_server/assets/scores/carcassi-11.provenance.json",
+      "bytes": 3431,
+      "sha256": "12fa0769d346ccae2bc9361dacbe2c46d746c3c3e229255380c5b5076ddc1fba"
+    },
+    {
+      "path": "rollingtab_server/assets/scores/carulli-sautillante.extraction.json",
+      "bytes": 41144,
+      "sha256": "5d1040f426ce328a553f9f5c3d6855e3dbea3f85b18603b863d3467f6e6c18c4"
+    },
+    {
+      "path": "rollingtab_server/assets/scores/carulli-sautillante.pdmx.json.gz",
+      "bytes": 1160,
+      "sha256": "225f00e604292fe04a25bb919cf334ef069ada5689985a192c556246aed4c235"
+    },
+    {
+      "path": "rollingtab_server/assets/scores/carulli-sautillante.provenance.json",
+      "bytes": 3437,
+      "sha256": "b165e0ee1050f754317c35ff990b799ea6d319bf787f5459a91852fdddedd118"
+    },
+    {
+      "path": "rollingtab_server/assets/scores/carulli-vals.pdmx.json.gz",
+      "bytes": 4781,
+      "sha256": "798bb9bb4fe7398ee9bf5583f785e6b8a3057efbc0bff18c186f5d91a1069737"
+    },
+    {
+      "path": "rollingtab_server/assets/scores/carulli-vals.provenance.json",
+      "bytes": 3336,
+      "sha256": "7b72a3c8c20c1e85bc35b1893dffb6e47954ddbf1de7ec80dfc8d892d5d65a46"
+    },
+    {
+      "path": "rollingtab_server/assets/scores/paganini-guitar.pdmx.json.gz",
+      "bytes": 11953,
+      "sha256": "3f5e9fbe15c4b1c43c20f7d6108bcf85ccb2b4ba2c0809cf388aed18f71e70f6"
+    },
+    {
+      "path": "rollingtab_server/assets/scores/paganini-guitar.provenance.json",
+      "bytes": 1140,
+      "sha256": "fac30bdafffcbb37bfc40d0f68dbadaf8e326825fa1ea2b8cc2ed9f35bd38a17"
+    },
+    {
+      "path": "rollingtab_server/assets/scores/repertoire.json",
+      "bytes": 4204,
+      "sha256": "86d4a8fa6e62838d65febf23fdc5ea6dfb4400be047e848383536047020ad419"
+    },
+    {
+      "path": "rollingtab_server/bin/main.dart",
+      "bytes": 100,
+      "sha256": "b4f3660106347feb9205b55041a04c2d97b631a0a989b938b4b2427780754d06"
+    },
+    {
+      "path": "rollingtab_server/config/development.yaml",
+      "bytes": 666,
+      "sha256": "cf4b87ddf42e29d78c625a743aa33c63438d44392c1fcc0196069119112b43ea"
+    },
+    {
+      "path": "rollingtab_server/config/generator.yaml",
+      "bytes": 108,
+      "sha256": "ba88258116ce75e6dc7839f9d5e5aaea2d816b84e3465e7cbf7cb4eedf8c842f"
+    },
+    {
+      "path": "rollingtab_server/config/test.yaml",
+      "bytes": 666,
+      "sha256": "5b7dc5004e7a6789417db89285797176f47bde74115ff3d1d0930dd6c3996240"
+    },
+    {
+      "path": "rollingtab_server/dart_test.yaml",
+      "bytes": 24,
+      "sha256": "8061e80dcdbbe7adab2f7ffe5037def2cf66fc88293f78717d825905b67860cf"
+    },
+    {
+      "path": "rollingtab_server/lib/server.dart",
+      "bytes": 3171,
+      "sha256": "df7745e04e947c02966e6db32369842e286b46111c28d28368d20bde650f4319"
+    },
+    {
+      "path": "rollingtab_server/lib/src/auth/email_idp_endpoint.dart",
+      "bytes": 497,
+      "sha256": "d3788325e927d491942d84a4154ea991551ecfeb86ff992433c7f9186c49893c"
+    },
+    {
+      "path": "rollingtab_server/lib/src/auth/jwt_refresh_endpoint.dart",
+      "bytes": 279,
+      "sha256": "1bb96cabae7e8e1faac7914c5005e6133d97d2903cb4040e9179fa519c62d11f"
+    },
+    {
+      "path": "rollingtab_server/lib/src/bootstrap.dart",
+      "bytes": 1610,
+      "sha256": "0ef24175207779b0d7465dc84c9c9f66d54cef6383355c4a8f949d3522e4cb49"
+    },
+    {
+      "path": "rollingtab_server/lib/src/catalog.dart",
+      "bytes": 5819,
+      "sha256": "b2a4d5ddd6e78bbb2834ed861aebdf6a85eb374f125c7ff532927517b71f0a82"
+    },
+    {
+      "path": "rollingtab_server/lib/src/generated/backend_error.dart",
+      "bytes": 2281,
+      "sha256": "0d9e79bb58ef42522c3a8a5c28682ab0a24bd6e270794cbf55c0dfe224efc52c"
+    },
+    {
+      "path": "rollingtab_server/lib/src/generated/catalog_score.dart",
+      "bytes": 29680,
+      "sha256": "a4e7a72bb0d80c79f3df0ff1bdf6a27822453aaa76d2a3ccc0424d6fa7cf00b0"
+    },
+    {
+      "path": "rollingtab_server/lib/src/generated/endpoints.dart",
+      "bytes": 6674,
+      "sha256": "5882b3fcc5871851072badafb9694334d212a10206fd53c6d2f407f3d132a3e4"
+    },
+    {
+      "path": "rollingtab_server/lib/src/generated/passage_input.dart",
+      "bytes": 5260,
+      "sha256": "ede10e812a1a3dc2d5306441601ef919b27c04ec108206f93fb40316caaac532"
+    },
+    {
+      "path": "rollingtab_server/lib/src/generated/protocol.dart",
+      "bytes": 17999,
+      "sha256": "07b2d578c9184e5c21dd276babde3c59162505e75951792e2a6ab0d33942b8e8"
+    },
+    {
+      "path": "rollingtab_server/lib/src/generated/protocol.yaml",
+      "bytes": 135,
+      "sha256": "628e7446a4d3ce2eaa07ba32abf34de59fd4baa1a127b9e0d03f7dd3838840ea"
+    },
+    {
+      "path": "rollingtab_server/lib/src/generated/provisioned_account.dart",
+      "bytes": 20077,
+      "sha256": "5ef6934ba5e3b5dc37ce96301ec093f9b0e7112b5d3f82cc5cd23ae4907abc39"
+    },
+    {
+      "path": "rollingtab_server/lib/src/generated/saved_passage.dart",
+      "bytes": 26067,
+      "sha256": "52c02b225a0072a6afd8c0b0741bb8133d9b2d1f3789e4b5e6178084dc7edaad"
+    },
+    {
+      "path": "rollingtab_server/lib/src/generated/serverpod.dart",
+      "bytes": 2325,
+      "sha256": "0a7199914c25d41664ac5bfe95b32ca3d4dba04ab8cfc2cd3a5c1b1de334efb5"
+    },
+    {
+      "path": "rollingtab_server/lib/src/models/backend_error.spy.yaml",
+      "bytes": 65,
+      "sha256": "cf002d8f9c2a4d2dceb6709a1ef9b943a83e4771738a0cb0314d4598ea1713d6"
+    },
+    {
+      "path": "rollingtab_server/lib/src/models/catalog_score.spy.yaml",
+      "bytes": 496,
+      "sha256": "363e9bdf453d414ea5fead8beec91f61a5a9afb6fa88d66fff4bf7f9891e4b3c"
+    },
+    {
+      "path": "rollingtab_server/lib/src/models/passage_input.spy.yaml",
+      "bytes": 224,
+      "sha256": "ac93b5c357f8ef01af5e5f27093bdb12ad01e3e6e2111df8d26bfc2724d96123"
+    },
+    {
+      "path": "rollingtab_server/lib/src/models/provisioned_account.spy.yaml",
+      "bytes": 199,
+      "sha256": "1e90b36b839556fe677cba0f4681794a3ba51a37543f5e6410bf6982ad73bb0f"
+    },
+    {
+      "path": "rollingtab_server/lib/src/models/saved_passage.spy.yaml",
+      "bytes": 415,
+      "sha256": "f3254b102ba52efa7ecbf1425c770300053810e520dd94556c7a68ade66e0d22"
+    },
+    {
+      "path": "rollingtab_server/lib/src/passages.dart",
+      "bytes": 4939,
+      "sha256": "b4982dd5865e4d8560337bee6eea968d31241a1fe74de63d65d2d2526835369f"
+    },
+    {
+      "path": "rollingtab_server/lib/src/web_routes.dart",
+      "bytes": 4655,
+      "sha256": "0d30fb99fc1fcb250c9692ebb57a8a0d6c8a51c24df12fe51f8b4d0396f300ec"
+    },
+    {
+      "path": "rollingtab_server/migrations/20261009235348754/definition.json",
+      "bytes": 103587,
+      "sha256": "3ff2cea749f9e445706f5e599265d18723e5644ac60d06739164612e86dd4d21"
+    },
+    {
+      "path": "rollingtab_server/migrations/20261009235348754/definition.sql",
+      "bytes": 27745,
+      "sha256": "3eebdfff69de528e9d30f6074988fa8c530e74df625f210566d09fa6abf340ce"
+    },
+    {
+      "path": "rollingtab_server/migrations/20261009235348754/definition_project.json",
+      "bytes": 10631,
+      "sha256": "5412c003e93015b25dab7737de8502f5bf319a93fe6ac116be5e764f7fadccca"
+    },
+    {
+      "path": "rollingtab_server/migrations/20261009235348754/migration.json",
+      "bytes": 114344,
+      "sha256": "cde87bcbf60dd9b11c848923d01c948034dcb4f875dd2d787ce73ff6f6051fff"
+    },
+    {
+      "path": "rollingtab_server/migrations/20261009235348754/migration.sql",
+      "bytes": 25448,
+      "sha256": "7d5ab4eb043b17112bb3a89dc6a8c596302ffc671d82242f6d29bed8aad69331"
+    },
+    {
+      "path": "rollingtab_server/migrations/20261012212930348/definition.json",
+      "bytes": 104575,
+      "sha256": "8ba6882aa69b4e835aab6b68c1c7e5499be1fbef58753cd7ebc3d1c52f336fc2"
+    },
+    {
+      "path": "rollingtab_server/migrations/20261012212930348/definition.sql",
+      "bytes": 27883,
+      "sha256": "56482285207d8549a19815d9cd7c89adfcd3ccdc4d14374f5a8175fca39efc13"
+    },
+    {
+      "path": "rollingtab_server/migrations/20261012212930348/definition_project.json",
+      "bytes": 11619,
+      "sha256": "663148014a91e4de9afa5c4b729948a5954fc89d14baab4077b97960df9bed43"
+    },
+    {
+      "path": "rollingtab_server/migrations/20261012212930348/migration.json",
+      "bytes": 1652,
+      "sha256": "506683ddaae7235df5b60218daba1751bff6b0afc9b80c33be205f1c1f6d0811"
+    },
+    {
+      "path": "rollingtab_server/migrations/20261012212930348/migration.sql",
+      "bytes": 1440,
+      "sha256": "fef007dc34cc676117d845e43b57f78cc8a4d584cb10b68fd70f79937ad5e841"
+    },
+    {
+      "path": "rollingtab_server/migrations/migration_registry.txt",
+      "bytes": 325,
+      "sha256": "b2863f772ae60b1ee0bb6b851bca1b15fc1ee57fcde18a358bf9d02c9a2f895f"
+    },
+    {
+      "path": "rollingtab_server/pubspec.lock",
+      "bytes": 24036,
+      "sha256": "bec168cebbe1365035ba5bd036979bc05cdc276e83776dd5c51e7f7b49d624dc"
+    },
+    {
+      "path": "rollingtab_server/pubspec.yaml",
+      "bytes": 314,
+      "sha256": "60817d9a9ca00eb8744670c0f27b272a29a6f77044d28e66c0a71bcaa207544f"
+    },
+    {
+      "path": "rollingtab_server/test/catalog_assets_test.dart",
+      "bytes": 2076,
+      "sha256": "d6a637452bf927fcf4841ed228b8dcedd8b16ecb7e7a9b1bbad2a0f2b2ae283d"
+    },
+    {
+      "path": "rollingtab_server/test/integration/practice_test.dart",
+      "bytes": 6597,
+      "sha256": "f6fb5a3728311cb8c3f7c5083934e66e2983a4e0e791d69eabcab108c1fa0dd9"
+    },
+    {
+      "path": "rollingtab_server/test/integration/test_tools/serverpod_test_tools.dart",
+      "bytes": 16481,
+      "sha256": "2d31116eff6e5febc1296ae4a762935267a0904d0751cc0c0fe1f7f5da987815"
+    },
+    {
+      "path": "rollingtab_server/web/templates/built_with_serverpod.html",
+      "bytes": 1022,
+      "sha256": "86d03cf0b62e473a58910a2fc3a50906ec7720f361b31c17f201236fd9b7b560"
+    },
+    {
+      "path": "rollingtab_site/analysis_options.yaml",
+      "bytes": 56,
+      "sha256": "14ec8d8c2eec66ea79d1d995a20e185feaf115eef95589d63524349493f8659b"
+    },
+    {
+      "path": "rollingtab_site/lib/main.server.dart",
+      "bytes": 8784,
+      "sha256": "9570edee613a83f1db21f575cf899044aae411fb8fc8aa457282212fb06657fe"
+    },
+    {
+      "path": "rollingtab_site/lib/main.server.options.dart",
+      "bytes": 541,
+      "sha256": "acae87a61c885d6915acd9e7e41d7e4d0ab313a47a178f4c11ab3705a9567315"
+    },
+    {
+      "path": "rollingtab_site/pubspec.lock",
+      "bytes": 22260,
+      "sha256": "405f7a346945aee32303be03cea3c7d31bc0560ba2566ae623597eb1b246999f"
+    },
+    {
+      "path": "rollingtab_site/pubspec.yaml",
+      "bytes": 233,
+      "sha256": "00351f3964aeac99065ea23b83eb9d2e4d7edaefa3b2c2784d1fe9600b8a8f14"
+    },
+    {
+      "path": "rollingtab_site/web/site-assets/GeneralUser-GS-LICENSE.txt",
+      "bytes": 2286,
+      "sha256": "504008a9097405a44d5feec1c41c656440363d42d26eb3051e0590530ba969c1"
+    },
+    {
+      "path": "rollingtab_site/web/site-assets/chord-handoff.jpg",
+      "bytes": 32757,
+      "sha256": "0d5bfb7440dd53b07524bb9e342339acc69cf988430db8a357645d4a32f6339c"
+    },
+    {
+      "path": "rollingtab_site/web/site-assets/chord-handoff.mp4",
+      "bytes": 340844,
+      "sha256": "8d33d6a47880b57a5094ca69bef6879cee8d908f0b92df1353e6a67a39a0af5a"
+    },
+    {
+      "path": "rollingtab_site/web/site-assets/favicon.svg",
+      "bytes": 242,
+      "sha256": "38caf4b79b9947c4b5bfd09125ada4ccb739fa2e2dddaa6529e25c3b17dc2f21"
+    },
+    {
+      "path": "rollingtab_site/web/site-assets/site.css",
+      "bytes": 4935,
+      "sha256": "0660df305ec0628f593d98dceea6d3138a8236bb2c35d31173024ea4be83beeb"
+    },
+    {
+      "path": "scripts/backend.py",
+      "bytes": 2790,
+      "sha256": "cc1765dfda449e280f456789fe07758309a2c7e0cde5e0a2c00865b985a25d7f"
+    },
+    {
+      "path": "scripts/build_macos.sh",
+      "bytes": 786,
+      "sha256": "4c5ef098853e69fa7afbf46a032b0e55bea171790899a0f3be8f3b077235934c"
+    },
+    {
+      "path": "scripts/build_server.sh",
+      "bytes": 225,
+      "sha256": "6164765e2ef7fbf43b4ca02c49c526a457d616fc6bc002b776539f896c07f5be"
+    },
+    {
+      "path": "scripts/build_site.sh",
+      "bytes": 217,
+      "sha256": "7544b3ae770450648e9cafb4aed9ec1b8e985ef843c4399a07339eaaa8bc9962"
+    },
+    {
+      "path": "scripts/build_web.sh",
+      "bytes": 630,
+      "sha256": "52866e43b3bf568f3e61bcc2790d5516c2f32f8ee3cec3da5b08ce9d68099406"
+    },
+    {
+      "path": "scripts/check_audio_package.py",
+      "bytes": 619,
+      "sha256": "f31bc090872fde3ae0fab06b4765129f083975b8dadaf64dadeb5df22d0326bb"
+    },
+    {
+      "path": "scripts/check_backend.py",
+      "bytes": 4891,
+      "sha256": "f9807e4649e3aa5c187aeba3ec22257979a7fa2d92a3dd73f8aaba422b483ff2"
+    },
+    {
+      "path": "scripts/check_repertoire.py",
+      "bytes": 2132,
+      "sha256": "51846cbbaeae9d0305148f4cc4533aede9e21cb5f9c74a8eb114a3cbee12760a"
+    },
+    {
+      "path": "scripts/check_site.py",
+      "bytes": 2934,
+      "sha256": "cb71ace981c8e0c7cee89e79e8542786c384ee6777e0900ac9111fa2c0df9b57"
+    },
+    {
+      "path": "scripts/provision_local.py",
+      "bytes": 2266,
+      "sha256": "65f99e92a4b5d361f39a38200ff900c5c20d1f981ead21405177d53ff83597ce"
+    },
+    {
+      "path": "scripts/setup_backend.py",
+      "bytes": 582,
+      "sha256": "85996e04af246b162d459ea16381cd3d6fefcbcc85923e914bf4032b96ddfbb0"
+    },
+    {
+      "path": "scripts/stage_web.py",
+      "bytes": 1129,
+      "sha256": "e82214dfbed33621d4c5ea702de169d4b08895e27020f789ae8bbedd4d442640"
+    },
+    {
+      "path": "scripts/start_backend.sh",
+      "bytes": 767,
+      "sha256": "9df72956efb8a370183901feeaed93e250a2d77ffeedc0c0c296d35475fcb67b"
+    },
+    {
+      "path": "scripts/toolchain.sh",
+      "bytes": 923,
+      "sha256": "3b8e6091eae82070456546d4e0de4f026e092dddd39f30360b3fa289751316c4"
+    },
+    {
+      "path": "test/backend_test.dart",
+      "bytes": 5295,
+      "sha256": "0c095abc58b53404e979cd6869ab8b4e3e708ad29a42c8fe9a459ddc8f026b75"
+    },
+    {
+      "path": "test/continuous_engine_test.dart",
+      "bytes": 2531,
+      "sha256": "fa173fd6768291a7a3ba1a6e0cfc014a1f4b9d718ac7d43a3ee27428a0acf8d3"
+    },
+    {
+      "path": "test/handedness_test.dart",
+      "bytes": 2732,
+      "sha256": "d713dcbb4f6f6b1099b12dd4cc4c191ec72af7bcf98925a8f7ed0dcd356e6467"
+    },
+    {
+      "path": "test/independent_connection_test.dart",
+      "bytes": 4323,
+      "sha256": "e248149e51f9bc792238c932775d9ddc8588837ac0744672835472975f741c84"
+    },
+    {
+      "path": "test/music_test.dart",
+      "bytes": 5743,
+      "sha256": "ba15e8a3ee2719ec2ad4735fe062f423048867a423cd1178235ad31500aa916a"
+    },
+    {
+      "path": "test/native_refill_test.dart",
+      "bytes": 1678,
+      "sha256": "2ad748c6a8fe70a318e60f2798cd133ad44b7f3a01c2e5da0707c57f0e4467c4"
+    },
+    {
+      "path": "test/repertoire_test.dart",
+      "bytes": 4601,
+      "sha256": "d263bbb52b772d81cd6171fca4397f0a096dcb07657f6ba667024f129e825073"
+    },
+    {
+      "path": "test/repertoire_widget_test.dart",
+      "bytes": 3672,
+      "sha256": "7272ab56f26624d8443148393aac4954cb09b0a61b8250ea4d968b5466545975"
+    },
+    {
+      "path": "test/slider_semantics_test.dart",
+      "bytes": 3208,
+      "sha256": "5e91e00b173b9b159685fd4f8b972822a002a4d234d81ca3e5f620575cd88d99"
+    },
+    {
+      "path": "test/speed_control_test.dart",
+      "bytes": 1188,
+      "sha256": "5c279877eb5d1679ce6b78afa91c321e4fde27a0c2d9d1342a59fa2baabd5db2"
+    },
+    {
+      "path": "test/synthesis_test.dart",
+      "bytes": 3907,
+      "sha256": "903795b3add6c05ddf758b717afe027c320c5e1d69f5e008e596853ecf5e99ac"
+    },
+    {
+      "path": "test/transport_test.dart",
+      "bytes": 4057,
+      "sha256": "63320fde71ae47bda0e0572c7dcc8404862eb189049d6d20bd9ce6ecf9eccad5"
+    },
+    {
+      "path": "web/favicon.png",
+      "bytes": 917,
+      "sha256": "7ab2525f4b86b65d3e4c70358a17e5a1aaf6f437f99cbcc046dad73d59bb9015"
+    },
+    {
+      "path": "web/icons/Icon-192.png",
+      "bytes": 5292,
+      "sha256": "3dce99077602f70421c1c6b2a240bc9b83d64d86681d45f2154143310c980be3"
+    },
+    {
+      "path": "web/icons/Icon-512.png",
+      "bytes": 8252,
+      "sha256": "baccb205ae45f0b421be1657259b4943ac40c95094ab877f3bcbe12cd544dcbe"
+    },
+    {
+      "path": "web/icons/Icon-maskable-192.png",
+      "bytes": 5594,
+      "sha256": "d2c842e22a9f4ec9d996b23373a905c88d9a203b220c5c151885ad621f974b5c"
+    },
+    {
+      "path": "web/icons/Icon-maskable-512.png",
+      "bytes": 20998,
+      "sha256": "6aee06cdcab6b2aef74b1734c4778f4421d2da100b0ff9e52b21b55240202929"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 1544,
+      "sha256": "cb71afa51a67fd01d184b313db172711405adabb8e45332182c9c00aa03398f6"
+    },
+    {
+      "path": "web/manifest.json",
+      "bytes": 916,
+      "sha256": "afe5cae5677c44084cc020f5d7eb0b7716fe5d7e59daa4457213620f2230019f"
+    }
+  ]
+}

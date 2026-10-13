@@ -1,0 +1,10 @@
+class: ProvisionedAccount
+table: rollingtab_provisioned_account
+serverOnly: true
+fields:
+  email: String
+  authUserId: UuidValue
+indexes:
+  provision_email_unique:
+    fields: email
+    unique: true

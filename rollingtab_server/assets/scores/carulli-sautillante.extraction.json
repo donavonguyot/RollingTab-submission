@@ -1,0 +1,2161 @@
+{
+  "physicalAttackCorrections": [
+    {
+      "onsetTicks": 0,
+      "string": 6,
+      "reason": "Same physical attack written in multiple TAB voices; longest duration retained"
+    },
+    {
+      "onsetTicks": 3840,
+      "string": 6,
+      "reason": "Same physical attack written in multiple TAB voices; longest duration retained"
+    },
+    {
+      "onsetTicks": 7680,
+      "string": 6,
+      "reason": "Same physical attack written in multiple TAB voices; longest duration retained"
+    },
+    {
+      "onsetTicks": 11520,
+      "string": 6,
+      "reason": "Same physical attack written in multiple TAB voices; longest duration retained"
+    },
+    {
+      "onsetTicks": 15360,
+      "string": 6,
+      "reason": "Same physical attack written in multiple TAB voices; longest duration retained"
+    },
+    {
+      "onsetTicks": 19200,
+      "string": 6,
+      "reason": "Same physical attack written in multiple TAB voices; longest duration retained"
+    },
+    {
+      "onsetTicks": 23040,
+      "string": 6,
+      "reason": "Same physical attack written in multiple TAB voices; longest duration retained"
+    },
+    {
+      "onsetTicks": 26880,
+      "string": 6,
+      "reason": "Same physical attack written in multiple TAB voices; longest duration retained"
+    }
+  ],
+  "noteMapping": [
+    {
+      "noteIndex": 0,
+      "sources": [
+        {
+          "measure": "1",
+          "measureIndex": 0,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 11,
+          "occurrence": 0
+        },
+        {
+          "measure": "1",
+          "measureIndex": 0,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 16,
+          "occurrence": 0
+        }
+      ]
+    },
+    {
+      "noteIndex": 1,
+      "sources": [
+        {
+          "measure": "1",
+          "measureIndex": 0,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 12,
+          "occurrence": 0
+        }
+      ]
+    },
+    {
+      "noteIndex": 2,
+      "sources": [
+        {
+          "measure": "1",
+          "measureIndex": 0,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 13,
+          "occurrence": 0
+        }
+      ]
+    },
+    {
+      "noteIndex": 3,
+      "sources": [
+        {
+          "measure": "1",
+          "measureIndex": 0,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 14,
+          "occurrence": 0
+        }
+      ]
+    },
+    {
+      "noteIndex": 4,
+      "sources": [
+        {
+          "measure": "1",
+          "measureIndex": 0,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 17,
+          "occurrence": 0
+        }
+      ]
+    },
+    {
+      "noteIndex": 5,
+      "sources": [
+        {
+          "measure": "2",
+          "measureIndex": 1,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 7,
+          "occurrence": 1
+        }
+      ]
+    },
+    {
+      "noteIndex": 6,
+      "sources": [
+        {
+          "measure": "2",
+          "measureIndex": 1,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 1
+        }
+      ]
+    },
+    {
+      "noteIndex": 7,
+      "sources": [
+        {
+          "measure": "2",
+          "measureIndex": 1,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 1
+        }
+      ]
+    },
+    {
+      "noteIndex": 8,
+      "sources": [
+        {
+          "measure": "2",
+          "measureIndex": 1,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 1
+        }
+      ]
+    },
+    {
+      "noteIndex": 9,
+      "sources": [
+        {
+          "measure": "2",
+          "measureIndex": 1,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 12,
+          "occurrence": 1
+        }
+      ]
+    },
+    {
+      "noteIndex": 10,
+      "sources": [
+        {
+          "measure": "3",
+          "measureIndex": 2,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 7,
+          "occurrence": 2
+        }
+      ]
+    },
+    {
+      "noteIndex": 11,
+      "sources": [
+        {
+          "measure": "3",
+          "measureIndex": 2,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 2
+        }
+      ]
+    },
+    {
+      "noteIndex": 12,
+      "sources": [
+        {
+          "measure": "3",
+          "measureIndex": 2,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 2
+        }
+      ]
+    },
+    {
+      "noteIndex": 13,
+      "sources": [
+        {
+          "measure": "3",
+          "measureIndex": 2,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 2
+        }
+      ]
+    },
+    {
+      "noteIndex": 14,
+      "sources": [
+        {
+          "measure": "3",
+          "measureIndex": 2,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 12,
+          "occurrence": 2
+        }
+      ]
+    },
+    {
+      "noteIndex": 15,
+      "sources": [
+        {
+          "measure": "4",
+          "measureIndex": 3,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 3
+        }
+      ]
+    },
+    {
+      "noteIndex": 16,
+      "sources": [
+        {
+          "measure": "4",
+          "measureIndex": 3,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 3
+        }
+      ]
+    },
+    {
+      "noteIndex": 17,
+      "sources": [
+        {
+          "measure": "4",
+          "measureIndex": 3,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 3
+        }
+      ]
+    },
+    {
+      "noteIndex": 18,
+      "sources": [
+        {
+          "measure": "4",
+          "measureIndex": 3,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 11,
+          "occurrence": 3
+        }
+      ]
+    },
+    {
+      "noteIndex": 19,
+      "sources": [
+        {
+          "measure": "4",
+          "measureIndex": 3,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 13,
+          "occurrence": 3
+        }
+      ]
+    },
+    {
+      "noteIndex": 20,
+      "sources": [
+        {
+          "measure": "4",
+          "measureIndex": 3,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 14,
+          "occurrence": 3
+        }
+      ]
+    },
+    {
+      "noteIndex": 21,
+      "sources": [
+        {
+          "measure": "5",
+          "measureIndex": 4,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 4
+        },
+        {
+          "measure": "5",
+          "measureIndex": 4,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 13,
+          "occurrence": 4
+        }
+      ]
+    },
+    {
+      "noteIndex": 22,
+      "sources": [
+        {
+          "measure": "5",
+          "measureIndex": 4,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 4
+        }
+      ]
+    },
+    {
+      "noteIndex": 23,
+      "sources": [
+        {
+          "measure": "5",
+          "measureIndex": 4,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 4
+        }
+      ]
+    },
+    {
+      "noteIndex": 24,
+      "sources": [
+        {
+          "measure": "5",
+          "measureIndex": 4,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 11,
+          "occurrence": 4
+        }
+      ]
+    },
+    {
+      "noteIndex": 25,
+      "sources": [
+        {
+          "measure": "5",
+          "measureIndex": 4,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 14,
+          "occurrence": 4
+        }
+      ]
+    },
+    {
+      "noteIndex": 26,
+      "sources": [
+        {
+          "measure": "6",
+          "measureIndex": 5,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 7,
+          "occurrence": 5
+        }
+      ]
+    },
+    {
+      "noteIndex": 27,
+      "sources": [
+        {
+          "measure": "6",
+          "measureIndex": 5,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 5
+        }
+      ]
+    },
+    {
+      "noteIndex": 28,
+      "sources": [
+        {
+          "measure": "6",
+          "measureIndex": 5,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 5
+        }
+      ]
+    },
+    {
+      "noteIndex": 29,
+      "sources": [
+        {
+          "measure": "6",
+          "measureIndex": 5,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 5
+        }
+      ]
+    },
+    {
+      "noteIndex": 30,
+      "sources": [
+        {
+          "measure": "6",
+          "measureIndex": 5,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 12,
+          "occurrence": 5
+        }
+      ]
+    },
+    {
+      "noteIndex": 31,
+      "sources": [
+        {
+          "measure": "7",
+          "measureIndex": 6,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 6
+        }
+      ]
+    },
+    {
+      "noteIndex": 32,
+      "sources": [
+        {
+          "measure": "7",
+          "measureIndex": 6,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 6
+        }
+      ]
+    },
+    {
+      "noteIndex": 33,
+      "sources": [
+        {
+          "measure": "7",
+          "measureIndex": 6,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 6
+        }
+      ]
+    },
+    {
+      "noteIndex": 34,
+      "sources": [
+        {
+          "measure": "7",
+          "measureIndex": 6,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 11,
+          "occurrence": 6
+        }
+      ]
+    },
+    {
+      "noteIndex": 35,
+      "sources": [
+        {
+          "measure": "7",
+          "measureIndex": 6,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 13,
+          "occurrence": 6
+        }
+      ]
+    },
+    {
+      "noteIndex": 36,
+      "sources": [
+        {
+          "measure": "8",
+          "measureIndex": 7,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 6,
+          "occurrence": 7
+        }
+      ]
+    },
+    {
+      "noteIndex": 37,
+      "sources": [
+        {
+          "measure": "8",
+          "measureIndex": 7,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 9,
+          "occurrence": 7
+        }
+      ]
+    },
+    {
+      "noteIndex": 38,
+      "sources": [
+        {
+          "measure": "9",
+          "measureIndex": 8,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 8
+        },
+        {
+          "measure": "9",
+          "measureIndex": 8,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 13,
+          "occurrence": 8
+        }
+      ]
+    },
+    {
+      "noteIndex": 39,
+      "sources": [
+        {
+          "measure": "9",
+          "measureIndex": 8,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 8
+        }
+      ]
+    },
+    {
+      "noteIndex": 40,
+      "sources": [
+        {
+          "measure": "9",
+          "measureIndex": 8,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 8
+        }
+      ]
+    },
+    {
+      "noteIndex": 41,
+      "sources": [
+        {
+          "measure": "9",
+          "measureIndex": 8,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 11,
+          "occurrence": 8
+        }
+      ]
+    },
+    {
+      "noteIndex": 42,
+      "sources": [
+        {
+          "measure": "9",
+          "measureIndex": 8,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 14,
+          "occurrence": 8
+        }
+      ]
+    },
+    {
+      "noteIndex": 43,
+      "sources": [
+        {
+          "measure": "10",
+          "measureIndex": 9,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 7,
+          "occurrence": 9
+        }
+      ]
+    },
+    {
+      "noteIndex": 44,
+      "sources": [
+        {
+          "measure": "10",
+          "measureIndex": 9,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 9
+        }
+      ]
+    },
+    {
+      "noteIndex": 45,
+      "sources": [
+        {
+          "measure": "10",
+          "measureIndex": 9,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 9
+        }
+      ]
+    },
+    {
+      "noteIndex": 46,
+      "sources": [
+        {
+          "measure": "10",
+          "measureIndex": 9,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 9
+        }
+      ]
+    },
+    {
+      "noteIndex": 47,
+      "sources": [
+        {
+          "measure": "10",
+          "measureIndex": 9,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 12,
+          "occurrence": 9
+        }
+      ]
+    },
+    {
+      "noteIndex": 48,
+      "sources": [
+        {
+          "measure": "11",
+          "measureIndex": 10,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 7,
+          "occurrence": 10
+        }
+      ]
+    },
+    {
+      "noteIndex": 49,
+      "sources": [
+        {
+          "measure": "11",
+          "measureIndex": 10,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 10
+        }
+      ]
+    },
+    {
+      "noteIndex": 50,
+      "sources": [
+        {
+          "measure": "11",
+          "measureIndex": 10,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 10
+        }
+      ]
+    },
+    {
+      "noteIndex": 51,
+      "sources": [
+        {
+          "measure": "11",
+          "measureIndex": 10,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 10
+        }
+      ]
+    },
+    {
+      "noteIndex": 52,
+      "sources": [
+        {
+          "measure": "11",
+          "measureIndex": 10,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 12,
+          "occurrence": 10
+        }
+      ]
+    },
+    {
+      "noteIndex": 53,
+      "sources": [
+        {
+          "measure": "12",
+          "measureIndex": 11,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 11
+        }
+      ]
+    },
+    {
+      "noteIndex": 54,
+      "sources": [
+        {
+          "measure": "12",
+          "measureIndex": 11,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 11
+        }
+      ]
+    },
+    {
+      "noteIndex": 55,
+      "sources": [
+        {
+          "measure": "12",
+          "measureIndex": 11,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 11
+        }
+      ]
+    },
+    {
+      "noteIndex": 56,
+      "sources": [
+        {
+          "measure": "12",
+          "measureIndex": 11,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 11,
+          "occurrence": 11
+        }
+      ]
+    },
+    {
+      "noteIndex": 57,
+      "sources": [
+        {
+          "measure": "12",
+          "measureIndex": 11,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 13,
+          "occurrence": 11
+        }
+      ]
+    },
+    {
+      "noteIndex": 58,
+      "sources": [
+        {
+          "measure": "12",
+          "measureIndex": 11,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 14,
+          "occurrence": 11
+        }
+      ]
+    },
+    {
+      "noteIndex": 59,
+      "sources": [
+        {
+          "measure": "13",
+          "measureIndex": 12,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 12
+        },
+        {
+          "measure": "13",
+          "measureIndex": 12,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 14,
+          "occurrence": 12
+        }
+      ]
+    },
+    {
+      "noteIndex": 60,
+      "sources": [
+        {
+          "measure": "13",
+          "measureIndex": 12,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 12
+        }
+      ]
+    },
+    {
+      "noteIndex": 61,
+      "sources": [
+        {
+          "measure": "13",
+          "measureIndex": 12,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 11,
+          "occurrence": 12
+        }
+      ]
+    },
+    {
+      "noteIndex": 62,
+      "sources": [
+        {
+          "measure": "13",
+          "measureIndex": 12,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 12,
+          "occurrence": 12
+        }
+      ]
+    },
+    {
+      "noteIndex": 63,
+      "sources": [
+        {
+          "measure": "13",
+          "measureIndex": 12,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 15,
+          "occurrence": 12
+        }
+      ]
+    },
+    {
+      "noteIndex": 64,
+      "sources": [
+        {
+          "measure": "14",
+          "measureIndex": 13,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 7,
+          "occurrence": 13
+        }
+      ]
+    },
+    {
+      "noteIndex": 65,
+      "sources": [
+        {
+          "measure": "14",
+          "measureIndex": 13,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 13
+        }
+      ]
+    },
+    {
+      "noteIndex": 66,
+      "sources": [
+        {
+          "measure": "14",
+          "measureIndex": 13,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 13
+        }
+      ]
+    },
+    {
+      "noteIndex": 67,
+      "sources": [
+        {
+          "measure": "14",
+          "measureIndex": 13,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 13
+        }
+      ]
+    },
+    {
+      "noteIndex": 68,
+      "sources": [
+        {
+          "measure": "14",
+          "measureIndex": 13,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 12,
+          "occurrence": 13
+        }
+      ]
+    },
+    {
+      "noteIndex": 69,
+      "sources": [
+        {
+          "measure": "15",
+          "measureIndex": 14,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 7,
+          "occurrence": 14
+        }
+      ]
+    },
+    {
+      "noteIndex": 70,
+      "sources": [
+        {
+          "measure": "15",
+          "measureIndex": 14,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 14
+        }
+      ]
+    },
+    {
+      "noteIndex": 71,
+      "sources": [
+        {
+          "measure": "15",
+          "measureIndex": 14,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 14
+        }
+      ]
+    },
+    {
+      "noteIndex": 72,
+      "sources": [
+        {
+          "measure": "15",
+          "measureIndex": 14,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 14
+        }
+      ]
+    },
+    {
+      "noteIndex": 73,
+      "sources": [
+        {
+          "measure": "15",
+          "measureIndex": 14,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 12,
+          "occurrence": 14
+        }
+      ]
+    },
+    {
+      "noteIndex": 74,
+      "sources": [
+        {
+          "measure": "16",
+          "measureIndex": 15,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 6,
+          "occurrence": 15
+        }
+      ]
+    },
+    {
+      "noteIndex": 75,
+      "sources": [
+        {
+          "measure": "16",
+          "measureIndex": 15,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 9,
+          "occurrence": 15
+        }
+      ]
+    },
+    {
+      "noteIndex": 76,
+      "sources": [
+        {
+          "measure": "17",
+          "measureIndex": 16,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 16
+        },
+        {
+          "measure": "17",
+          "measureIndex": 16,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 13,
+          "occurrence": 16
+        }
+      ]
+    },
+    {
+      "noteIndex": 77,
+      "sources": [
+        {
+          "measure": "17",
+          "measureIndex": 16,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 16
+        }
+      ]
+    },
+    {
+      "noteIndex": 78,
+      "sources": [
+        {
+          "measure": "17",
+          "measureIndex": 16,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 16
+        }
+      ]
+    },
+    {
+      "noteIndex": 79,
+      "sources": [
+        {
+          "measure": "17",
+          "measureIndex": 16,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 11,
+          "occurrence": 16
+        }
+      ]
+    },
+    {
+      "noteIndex": 80,
+      "sources": [
+        {
+          "measure": "18",
+          "measureIndex": 17,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 7,
+          "occurrence": 17
+        }
+      ]
+    },
+    {
+      "noteIndex": 81,
+      "sources": [
+        {
+          "measure": "18",
+          "measureIndex": 17,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 17
+        }
+      ]
+    },
+    {
+      "noteIndex": 82,
+      "sources": [
+        {
+          "measure": "18",
+          "measureIndex": 17,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 17
+        }
+      ]
+    },
+    {
+      "noteIndex": 83,
+      "sources": [
+        {
+          "measure": "18",
+          "measureIndex": 17,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 17
+        }
+      ]
+    },
+    {
+      "noteIndex": 84,
+      "sources": [
+        {
+          "measure": "18",
+          "measureIndex": 17,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 12,
+          "occurrence": 17
+        }
+      ]
+    },
+    {
+      "noteIndex": 85,
+      "sources": [
+        {
+          "measure": "19",
+          "measureIndex": 18,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 18
+        }
+      ]
+    },
+    {
+      "noteIndex": 86,
+      "sources": [
+        {
+          "measure": "19",
+          "measureIndex": 18,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 18
+        }
+      ]
+    },
+    {
+      "noteIndex": 87,
+      "sources": [
+        {
+          "measure": "19",
+          "measureIndex": 18,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 18
+        }
+      ]
+    },
+    {
+      "noteIndex": 88,
+      "sources": [
+        {
+          "measure": "19",
+          "measureIndex": 18,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 11,
+          "occurrence": 18
+        }
+      ]
+    },
+    {
+      "noteIndex": 89,
+      "sources": [
+        {
+          "measure": "19",
+          "measureIndex": 18,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 13,
+          "occurrence": 18
+        }
+      ]
+    },
+    {
+      "noteIndex": 90,
+      "sources": [
+        {
+          "measure": "20",
+          "measureIndex": 19,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 7,
+          "occurrence": 19
+        }
+      ]
+    },
+    {
+      "noteIndex": 91,
+      "sources": [
+        {
+          "measure": "20",
+          "measureIndex": 19,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 19
+        }
+      ]
+    },
+    {
+      "noteIndex": 92,
+      "sources": [
+        {
+          "measure": "20",
+          "measureIndex": 19,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 19
+        }
+      ]
+    },
+    {
+      "noteIndex": 93,
+      "sources": [
+        {
+          "measure": "20",
+          "measureIndex": 19,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 19
+        }
+      ]
+    },
+    {
+      "noteIndex": 94,
+      "sources": [
+        {
+          "measure": "20",
+          "measureIndex": 19,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 12,
+          "occurrence": 19
+        }
+      ]
+    },
+    {
+      "noteIndex": 95,
+      "sources": [
+        {
+          "measure": "21",
+          "measureIndex": 20,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 20
+        },
+        {
+          "measure": "21",
+          "measureIndex": 20,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 13,
+          "occurrence": 20
+        }
+      ]
+    },
+    {
+      "noteIndex": 96,
+      "sources": [
+        {
+          "measure": "21",
+          "measureIndex": 20,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 20
+        }
+      ]
+    },
+    {
+      "noteIndex": 97,
+      "sources": [
+        {
+          "measure": "21",
+          "measureIndex": 20,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 20
+        }
+      ]
+    },
+    {
+      "noteIndex": 98,
+      "sources": [
+        {
+          "measure": "21",
+          "measureIndex": 20,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 11,
+          "occurrence": 20
+        }
+      ]
+    },
+    {
+      "noteIndex": 99,
+      "sources": [
+        {
+          "measure": "21",
+          "measureIndex": 20,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 14,
+          "occurrence": 20
+        }
+      ]
+    },
+    {
+      "noteIndex": 100,
+      "sources": [
+        {
+          "measure": "22",
+          "measureIndex": 21,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 7,
+          "occurrence": 21
+        }
+      ]
+    },
+    {
+      "noteIndex": 101,
+      "sources": [
+        {
+          "measure": "22",
+          "measureIndex": 21,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 21
+        }
+      ]
+    },
+    {
+      "noteIndex": 102,
+      "sources": [
+        {
+          "measure": "22",
+          "measureIndex": 21,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 21
+        }
+      ]
+    },
+    {
+      "noteIndex": 103,
+      "sources": [
+        {
+          "measure": "22",
+          "measureIndex": 21,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 21
+        }
+      ]
+    },
+    {
+      "noteIndex": 104,
+      "sources": [
+        {
+          "measure": "22",
+          "measureIndex": 21,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 12,
+          "occurrence": 21
+        }
+      ]
+    },
+    {
+      "noteIndex": 105,
+      "sources": [
+        {
+          "measure": "23",
+          "measureIndex": 22,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 7,
+          "occurrence": 22
+        }
+      ]
+    },
+    {
+      "noteIndex": 106,
+      "sources": [
+        {
+          "measure": "23",
+          "measureIndex": 22,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 22
+        }
+      ]
+    },
+    {
+      "noteIndex": 107,
+      "sources": [
+        {
+          "measure": "23",
+          "measureIndex": 22,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 22
+        }
+      ]
+    },
+    {
+      "noteIndex": 108,
+      "sources": [
+        {
+          "measure": "23",
+          "measureIndex": 22,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 22
+        }
+      ]
+    },
+    {
+      "noteIndex": 109,
+      "sources": [
+        {
+          "measure": "23",
+          "measureIndex": 22,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 12,
+          "occurrence": 22
+        }
+      ]
+    },
+    {
+      "noteIndex": 110,
+      "sources": [
+        {
+          "measure": "24",
+          "measureIndex": 23,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 6,
+          "occurrence": 23
+        }
+      ]
+    },
+    {
+      "noteIndex": 111,
+      "sources": [
+        {
+          "measure": "24",
+          "measureIndex": 23,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 9,
+          "occurrence": 23
+        }
+      ]
+    },
+    {
+      "noteIndex": 112,
+      "sources": [
+        {
+          "measure": "17",
+          "measureIndex": 16,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 24
+        },
+        {
+          "measure": "17",
+          "measureIndex": 16,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 13,
+          "occurrence": 24
+        }
+      ]
+    },
+    {
+      "noteIndex": 113,
+      "sources": [
+        {
+          "measure": "17",
+          "measureIndex": 16,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 24
+        }
+      ]
+    },
+    {
+      "noteIndex": 114,
+      "sources": [
+        {
+          "measure": "17",
+          "measureIndex": 16,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 24
+        }
+      ]
+    },
+    {
+      "noteIndex": 115,
+      "sources": [
+        {
+          "measure": "17",
+          "measureIndex": 16,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 11,
+          "occurrence": 24
+        }
+      ]
+    },
+    {
+      "noteIndex": 116,
+      "sources": [
+        {
+          "measure": "18",
+          "measureIndex": 17,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 7,
+          "occurrence": 25
+        }
+      ]
+    },
+    {
+      "noteIndex": 117,
+      "sources": [
+        {
+          "measure": "18",
+          "measureIndex": 17,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 25
+        }
+      ]
+    },
+    {
+      "noteIndex": 118,
+      "sources": [
+        {
+          "measure": "18",
+          "measureIndex": 17,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 25
+        }
+      ]
+    },
+    {
+      "noteIndex": 119,
+      "sources": [
+        {
+          "measure": "18",
+          "measureIndex": 17,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 25
+        }
+      ]
+    },
+    {
+      "noteIndex": 120,
+      "sources": [
+        {
+          "measure": "18",
+          "measureIndex": 17,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 12,
+          "occurrence": 25
+        }
+      ]
+    },
+    {
+      "noteIndex": 121,
+      "sources": [
+        {
+          "measure": "19",
+          "measureIndex": 18,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 26
+        }
+      ]
+    },
+    {
+      "noteIndex": 122,
+      "sources": [
+        {
+          "measure": "19",
+          "measureIndex": 18,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 26
+        }
+      ]
+    },
+    {
+      "noteIndex": 123,
+      "sources": [
+        {
+          "measure": "19",
+          "measureIndex": 18,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 26
+        }
+      ]
+    },
+    {
+      "noteIndex": 124,
+      "sources": [
+        {
+          "measure": "19",
+          "measureIndex": 18,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 11,
+          "occurrence": 26
+        }
+      ]
+    },
+    {
+      "noteIndex": 125,
+      "sources": [
+        {
+          "measure": "19",
+          "measureIndex": 18,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 13,
+          "occurrence": 26
+        }
+      ]
+    },
+    {
+      "noteIndex": 126,
+      "sources": [
+        {
+          "measure": "20",
+          "measureIndex": 19,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 7,
+          "occurrence": 27
+        }
+      ]
+    },
+    {
+      "noteIndex": 127,
+      "sources": [
+        {
+          "measure": "20",
+          "measureIndex": 19,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 27
+        }
+      ]
+    },
+    {
+      "noteIndex": 128,
+      "sources": [
+        {
+          "measure": "20",
+          "measureIndex": 19,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 27
+        }
+      ]
+    },
+    {
+      "noteIndex": 129,
+      "sources": [
+        {
+          "measure": "20",
+          "measureIndex": 19,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 27
+        }
+      ]
+    },
+    {
+      "noteIndex": 130,
+      "sources": [
+        {
+          "measure": "20",
+          "measureIndex": 19,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 12,
+          "occurrence": 27
+        }
+      ]
+    },
+    {
+      "noteIndex": 131,
+      "sources": [
+        {
+          "measure": "21",
+          "measureIndex": 20,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 28
+        },
+        {
+          "measure": "21",
+          "measureIndex": 20,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 13,
+          "occurrence": 28
+        }
+      ]
+    },
+    {
+      "noteIndex": 132,
+      "sources": [
+        {
+          "measure": "21",
+          "measureIndex": 20,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 28
+        }
+      ]
+    },
+    {
+      "noteIndex": 133,
+      "sources": [
+        {
+          "measure": "21",
+          "measureIndex": 20,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 28
+        }
+      ]
+    },
+    {
+      "noteIndex": 134,
+      "sources": [
+        {
+          "measure": "21",
+          "measureIndex": 20,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 11,
+          "occurrence": 28
+        }
+      ]
+    },
+    {
+      "noteIndex": 135,
+      "sources": [
+        {
+          "measure": "21",
+          "measureIndex": 20,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 14,
+          "occurrence": 28
+        }
+      ]
+    },
+    {
+      "noteIndex": 136,
+      "sources": [
+        {
+          "measure": "22",
+          "measureIndex": 21,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 7,
+          "occurrence": 29
+        }
+      ]
+    },
+    {
+      "noteIndex": 137,
+      "sources": [
+        {
+          "measure": "22",
+          "measureIndex": 21,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 29
+        }
+      ]
+    },
+    {
+      "noteIndex": 138,
+      "sources": [
+        {
+          "measure": "22",
+          "measureIndex": 21,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 29
+        }
+      ]
+    },
+    {
+      "noteIndex": 139,
+      "sources": [
+        {
+          "measure": "22",
+          "measureIndex": 21,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 29
+        }
+      ]
+    },
+    {
+      "noteIndex": 140,
+      "sources": [
+        {
+          "measure": "22",
+          "measureIndex": 21,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 12,
+          "occurrence": 29
+        }
+      ]
+    },
+    {
+      "noteIndex": 141,
+      "sources": [
+        {
+          "measure": "23",
+          "measureIndex": 22,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 7,
+          "occurrence": 30
+        }
+      ]
+    },
+    {
+      "noteIndex": 142,
+      "sources": [
+        {
+          "measure": "23",
+          "measureIndex": 22,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 8,
+          "occurrence": 30
+        }
+      ]
+    },
+    {
+      "noteIndex": 143,
+      "sources": [
+        {
+          "measure": "23",
+          "measureIndex": 22,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 9,
+          "occurrence": 30
+        }
+      ]
+    },
+    {
+      "noteIndex": 144,
+      "sources": [
+        {
+          "measure": "23",
+          "measureIndex": 22,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 10,
+          "occurrence": 30
+        }
+      ]
+    },
+    {
+      "noteIndex": 145,
+      "sources": [
+        {
+          "measure": "23",
+          "measureIndex": 22,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 12,
+          "occurrence": 30
+        }
+      ]
+    },
+    {
+      "noteIndex": 146,
+      "sources": [
+        {
+          "measure": "24",
+          "measureIndex": 23,
+          "staff": "2",
+          "voice": "5",
+          "elementIndex": 6,
+          "occurrence": 31
+        }
+      ]
+    },
+    {
+      "noteIndex": 147,
+      "sources": [
+        {
+          "measure": "24",
+          "measureIndex": 23,
+          "staff": "2",
+          "voice": "8",
+          "elementIndex": 9,
+          "occurrence": 31
+        }
+      ]
+    }
+  ],
+  "rests": [
+    {
+      "measure": "8",
+      "measureIndex": 7,
+      "staff": "2",
+      "voice": "5",
+      "elementIndex": 7,
+      "rest": true,
+      "onsetQuarters": "1",
+      "durationQuarters": "1",
+      "occurrence": 7
+    },
+    {
+      "measure": "8",
+      "measureIndex": 7,
+      "staff": "2",
+      "voice": "8",
+      "elementIndex": 10,
+      "rest": true,
+      "onsetQuarters": "1",
+      "durationQuarters": "1",
+      "occurrence": 7
+    },
+    {
+      "measure": "16",
+      "measureIndex": 15,
+      "staff": "2",
+      "voice": "5",
+      "elementIndex": 7,
+      "rest": true,
+      "onsetQuarters": "1",
+      "durationQuarters": "1",
+      "occurrence": 15
+    },
+    {
+      "measure": "16",
+      "measureIndex": 15,
+      "staff": "2",
+      "voice": "8",
+      "elementIndex": 10,
+      "rest": true,
+      "onsetQuarters": "1",
+      "durationQuarters": "1",
+      "occurrence": 15
+    },
+    {
+      "measure": "24",
+      "measureIndex": 23,
+      "staff": "2",
+      "voice": "5",
+      "elementIndex": 7,
+      "rest": true,
+      "onsetQuarters": "1",
+      "durationQuarters": "1",
+      "occurrence": 23
+    },
+    {
+      "measure": "24",
+      "measureIndex": 23,
+      "staff": "2",
+      "voice": "8",
+      "elementIndex": 10,
+      "rest": true,
+      "onsetQuarters": "1",
+      "durationQuarters": "1",
+      "occurrence": 23
+    },
+    {
+      "measure": "24",
+      "measureIndex": 23,
+      "staff": "2",
+      "voice": "5",
+      "elementIndex": 7,
+      "rest": true,
+      "onsetQuarters": "1",
+      "durationQuarters": "1",
+      "occurrence": 31
+    },
+    {
+      "measure": "24",
+      "measureIndex": 23,
+      "staff": "2",
+      "voice": "8",
+      "elementIndex": 10,
+      "rest": true,
+      "onsetQuarters": "1",
+      "durationQuarters": "1",
+      "occurrence": 31
+    }
+  ],
+  "measureOrder": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "diagnostics": [
+    "TAB staff only; paired notation excluded. Simple repeats expanded explicitly. Pluck/fingering and engraving marks retained in source but not interpreted."
+  ]
+}

@@ -1,0 +1,23 @@
+class: SavedPassage
+table: rollingtab_passage
+fields:
+  passageId: String
+  owner: UuidValue
+  cid: String
+  artifactVersion: String
+  sourceSlot: int
+  name: String
+  start: double
+  end: double
+  tempo: double
+  loop: bool
+  revision: int
+  requestId: String
+  createdAt: DateTime
+  updatedAt: DateTime
+indexes:
+  passage_identity_unique:
+    fields: passageId
+    unique: true
+  passage_owner:
+    fields: owner

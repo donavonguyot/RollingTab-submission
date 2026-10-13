@@ -1,0 +1,12 @@
+name: rollingtab_audio
+description: RollingTAB continuous SoundFont scheduling and platform PCM output.
+publish_to: none
+version: 0.1.0
+environment:
+  sdk: ^3.13.5
+dependencies:
+  flutter:
+    sdk: flutter
+  dart_melty_soundfont: 2.0.0
+  flutter_pcm_sound: 3.3.3
+  web: ^1.1.1

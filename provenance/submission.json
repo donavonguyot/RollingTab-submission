@@ -1,0 +1,45 @@
+{
+  "scope": "Buildable five-score RollingTAB submission snapshot; original development history retained separately by the author.",
+  "adaptedComponents": [
+    {
+      "component": "Music Surface Lab",
+      "contribution": "Initial guitar surface, voicing models, authored studies, transport concepts, diagnostics and PDMX decoder snapshot."
+    },
+    {
+      "component": "RollingPod",
+      "contribution": "Continuous SoundFont/platform PCM output approach; independently adapted scheduling, cancellation and guitar techniques."
+    }
+  ],
+  "scores": [
+    {
+      "key": "paganini-guitar",
+      "cid": "QmcmrMSehjpEW3yzzstiCECCTxLNBapeRrnQKc7rrWCB26",
+      "compressedSha256": "3f5e9fbe15c4b1c43c20f7d6108bcf85ccb2b4ba2c0809cf388aed18f71e70f6",
+      "logicalSha256": "f40dc4bd7e195445aab7577b1ee31387ebe07a3a2532b812fb4c13fb16be686b"
+    },
+    {
+      "key": "carulli-vals",
+      "cid": "QmYqgebAueJN7ho2vDJn6cQ5EVXLucN9n4EsRt8gkXzxLb",
+      "compressedSha256": "798bb9bb4fe7398ee9bf5583f785e6b8a3057efbc0bff18c186f5d91a1069737",
+      "logicalSha256": "c330b394b919e53053010881d7cefb1877934d4795c5b3f3dd59142168dcb0b3"
+    },
+    {
+      "key": "carcassi-11",
+      "cid": "QmReYnkQXVE5FdB13tois6EqG28nRb4LDWFJqeYcdXpovH",
+      "compressedSha256": "4e99d5aceff8d4bd7543298b348700eacaccb5c68bc5a35ebbd07dedf9c3b821",
+      "logicalSha256": "1961e133e0057ece3a772dd5d04cccfcc44bdf171466419278522ccdd02c2b5e"
+    },
+    {
+      "key": "bach-bourree",
+      "cid": "QmTWXvLd3zGP7aLtBGueszoXbZEcrgdbmzePoFYsVRDD36",
+      "compressedSha256": "db0fbc96fb53c2c7f316d5730c7ccf27bb73fc62cc775d611ca8e0dfda6318f8",
+      "logicalSha256": "42bec6dce8c5c9b7b59f31b6144aa8b195a3f92eac6ba20452b17586c832150b"
+    },
+    {
+      "key": "carulli-sautillante",
+      "cid": "Qmexwm3cnC667DJRPmZUFXaRA5s7J59WnMSFP6ZxK6vxRC",
+      "compressedSha256": "225f00e604292fe04a25bb919cf334ef069ada5689985a192c556246aed4c235",
+      "logicalSha256": "e3e28d5aabeb11f2c53c9719ce4bd8fc3a5c99618593aa6ec5b3acad18253822"
+    }
+  ]
+}

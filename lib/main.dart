@@ -1,4 +1,5 @@
 import 'widgets/slider_overlay.dart';
+import 'widgets/auth_dialog.dart';
 
 import 'dart:convert';
 import 'dart:async';
@@ -371,91 +372,8 @@ class _RollingTabAppState extends State<RollingTabApp>
   }
 
   Future<void> connectDialog(BuildContext context) async {
-    final email = TextEditingController(), password = TextEditingController();
-    String? error;
-    bool working = false;
-    await showDialog<void>(
-      context: context,
-      builder: (dialog) => StatefulBuilder(
-        builder: (context, update) => AlertDialog(
-          title: const Text('Sign in to RollingTAB'),
-          content: SizedBox(
-            width: 360,
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                const Text(
-                  'Invited accounts can save passages. Playing does not require an account.',
-                ),
-                const SizedBox(height: 16),
-                TextField(
-                  controller: email,
-                  autofocus: true,
-                  decoration: const InputDecoration(labelText: 'Email'),
-                  keyboardType: TextInputType.emailAddress,
-                ),
-                const SizedBox(height: 12),
-                TextField(
-                  controller: password,
-                  obscureText: true,
-                  decoration: const InputDecoration(labelText: 'Password'),
-                ),
-                if (error != null)
-                  Padding(
-                    padding: const EdgeInsets.only(top: 12),
-                    child: Text(
-                      error!,
-                      style: TextStyle(
-                        color: Theme.of(context).colorScheme.error,
-                      ),
-                    ),
-                  ),
-                if (working)
-                  Semantics(
-                    container: true,
-                    label: 'Connecting',
-                    child: const LinearProgressIndicator(),
-                  ),
-              ],
-            ),
-          ),
-          actions: [
-            TextButton(
-              onPressed: working ? null : () => Navigator.pop(dialog),
-              child: const Text('Cancel'),
-            ),
-            FilledButton(
-              onPressed: working
-                  ? null
-                  : () async {
-                      update(() {
-                        working = true;
-                        error = null;
-                      });
-                      try {
-                        await backend.login(email.text, password.text);
-                        if (dialog.mounted) Navigator.pop(dialog);
-                      } catch (e) {
-                        if (dialog.mounted) {
-                          update(() {
-                            working = false;
-                            error = e.toString();
-                          });
-                        }
-                      }
-                    },
-              child: const Text('Sign in'),
-            ),
-          ],
-        ),
-      ),
-    );
-    // Dialog transition may still hold the fields; dispose after its reverse animation.
-    Future.delayed(const Duration(milliseconds: 400), () {
-      email.dispose();
-      password.dispose();
-    });
+    await showDialog<void>(context: context, barrierDismissible: false,
+      builder: (_) => AuthDialog(backend: backend));
     if (mounted) setState(() {});
   }
 

@@ -1,5 +1,12 @@
 emailIdp:
+  - selfServiceEnabled:
   - login:
+  - startRegistration:
+  - verifyRegistrationCode:
+  - finishRegistration:
+  - startPasswordReset:
+  - verifyPasswordResetCode:
+  - finishPasswordReset:
 jwtRefresh:
   - refreshAccessToken:
 catalog:

@@ -1,17 +1,17 @@
-# Private submission handoff
+# Submission handoff
 
-This directory is a standalone five-score source snapshot for private judging. It has no remote configured and no original development history. See [judge guide](JUDGE_GUIDE.md), [development instructions](DEVELOPMENT.md) and [verification](VERIFICATION.md).
+This directory is a standalone five-score source snapshot for public judging. Its independent repository is https://github.com/donavonguyot/RollingTab-submission and contains no original development history. See [judge guide](JUDGE_GUIDE.md), [development instructions](DEVELOPMENT.md) and [verification](VERIFICATION.md).
 
-- [ ] Create a private repository from this snapshot only; do not push the original repository or its history.
-- [ ] Confirm the contest's current judge identities and grant their private repository access.
-- [ ] Provision dedicated judge accounts; verify save → reload → reopen; supply credentials privately through the organizer's designated channel. Do not commit passwords or use the owner's account.
+- [x] Publish the cleaned snapshot in its own public repository; original history remains separate.
+- [x] Public repository access requires no judge invitations.
+- [ ] Verify hosted signup → save → reload → reopen and password recovery; retain a private fallback account. Do not commit credentials.
 - [ ] Publish the actual application demo on YouTube/Vimeo, under two minutes, and supply its URL.
 - [ ] Review the project description and AI-tool disclosure for the submission form; distinguish adapted components from new work and confirm eligibility.
 - [ ] Submit and retain the receipt. Keep the live demo and judge access available throughout judging.
 
 ## Description draft
 
-RollingTAB helps guitarists practice a short passage with audible playback, moving Perspective TAB, and a Now + next view of current and upcoming string positions. Guests can choose five hosted scores, seek, loop, and change speed without changing pitch. Invited users can save a named passage and reopen it after reloading, with bounds, speed and loop restored. Flutter renders and synthesizes locally; Serverpod delivers the repertoire and authenticates users; PostgreSQL stores their passages; Serverpod Cloud hosts the demo.
+RollingTAB helps guitarists practice a short passage with audible playback, moving Perspective TAB, and a Now + next view of current and upcoming string positions. Guests can choose five hosted scores, seek, loop, and change speed without changing pitch. Users with verified email accounts can save a named passage and reopen it after reloading, with bounds, speed and loop restored. Flutter renders and synthesizes locally; Serverpod delivers the repertoire and authenticates users; PostgreSQL stores their passages; Serverpod Cloud hosts the demo.
 
 ## AI and reuse disclosure draft
 

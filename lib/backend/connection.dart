@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
@@ -77,34 +78,60 @@ class BackendConnection extends ChangeNotifier {
   }
   bool get signedIn => _session != null;
   int get accountEpoch => _epoch;
-  Future<Map<String, dynamic>> _auth(
+  Future<dynamic> _auth(
     String operation,
     Map<String, dynamic> payload, {
     bool authorize = false,
   }) async {
-    final response = await client
-        .post(
-          config.auth(operation),
-          headers: {
-            'content-type': 'application/json',
-            if (kIsWeb) 'x-serverpod-auth-mode': 'cookie',
-            if (authorize && _session != null)
-              'authorization': 'Bearer ${_session!.token}',
-          },
-          body: jsonEncode(payload),
-        )
-        .timeout(const Duration(seconds: 30));
-    if (response.statusCode != 200) {
-      throw BackendFailure(
-        response.statusCode == 401
-            ? 'Sign in again to save passages.'
-            : 'Authentication failed (${response.statusCode}).',
-        response.statusCode,
+    final http.Response response;
+    try {
+      response = await client
+          .post(
+            config.auth(operation),
+            headers: {
+              'content-type': 'application/json',
+              if (kIsWeb) 'x-serverpod-auth-mode': 'cookie',
+              if (authorize && _session != null)
+                'authorization': 'Bearer ${_session!.token}',
+            },
+            body: jsonEncode(payload),
+          )
+          .timeout(const Duration(seconds: 30));
+    } on Exception {
+      throw const BackendFailure(
+        'Cannot reach RollingTAB. Check your connection and try again.',
       );
+    }
+    if (response.statusCode != 200) {
+      Map<String, dynamic> error = {};
+      try {
+        final decoded = jsonDecode(response.body);
+        if (decoded is Map) {
+          final detail = decoded['data'];
+          error = Map<String, dynamic>.from(detail is Map ? detail : decoded);
+        }
+      } catch (_) {}
+      final reason = error['reason'];
+      final message = switch (reason) {
+        'invalidCredentials' => 'Email or password is incorrect.',
+        'tooManyAttempts' =>
+          'Too many attempts. Wait before trying again, or request a new code.',
+        'expired' => 'This code has expired. Request a new code.',
+        'policyViolation' =>
+          'Use at least 8 characters with no spaces at the beginning or end.',
+        'invalid' => 'This code or request is invalid. Check the code or request a new one.',
+        _ =>
+          error['__className__'] == 'BackendError' && error['message'] is String
+              ? error['message'] as String
+              : response.statusCode == 401
+              ? 'Sign in again to save passages.'
+              : 'Authentication could not be completed. Please try again.',
+      };
+      throw BackendFailure(message, response.statusCode);
     }
     if (response.body.isEmpty || response.body == 'null') return {};
     final value = jsonDecode(response.body);
-    return value is Map ? Map<String, dynamic>.from(value) : {};
+    return value;
   }
 
   Future<void> login(String email, String password) async {
@@ -117,6 +144,57 @@ class BackendConnection extends ChangeNotifier {
     if (epoch != _epoch) return;
     _session = AuthSuccess.fromJson(data);
     notifyListeners();
+  }
+
+  Future<bool> selfServiceEnabled() async {
+    try {
+      return await _auth('emailIdp/selfServiceEnabled', {}) == true;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  Future<String> startEmailFlow(String email, {required bool reset}) async =>
+      await _auth(
+        'emailIdp/${reset ? 'startPasswordReset' : 'startRegistration'}',
+        {'email': email.trim().toLowerCase()},
+      ) as String;
+
+  Future<String> verifyEmailCode(
+    String requestId,
+    String code, {
+    required bool reset,
+  }) async => await _auth(
+    'emailIdp/${reset ? 'verifyPasswordResetCode' : 'verifyRegistrationCode'}',
+    {
+      reset ? 'passwordResetRequestId' : 'accountRequestId': requestId,
+      'verificationCode': code.trim().toLowerCase(),
+    },
+  ) as String;
+
+  Future<void> finishEmailFlow(
+    String token,
+    String password, {
+    required bool reset,
+  }) async {
+    if (reset) {
+      await _auth('emailIdp/finishPasswordReset', {
+        'finishPasswordResetToken': token,
+        'newPassword': password,
+      });
+      _epoch++;
+      _session = null;
+      notifyListeners();
+    } else {
+      final epoch = ++_epoch;
+      final data = await _auth('emailIdp/finishRegistration', {
+        'registrationToken': token,
+        'password': password,
+      });
+      if (epoch != _epoch) return;
+      _session = AuthSuccess.fromJson(Map<String, dynamic>.from(data as Map));
+      notifyListeners();
+    }
   }
 
   Future<void> restore() async {

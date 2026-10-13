@@ -11,6 +11,14 @@ const bridgeMethods = {
   'passages/save',
   'passages/delete',
   'emailIdp/login',
+  'emailIdp/selfServiceEnabled',
+  'emailIdp/startRegistration',
+  'emailIdp/verifyRegistrationCode',
+  'emailIdp/finishRegistration',
+  'emailIdp/startPasswordReset',
+  'emailIdp/verifyPasswordResetCode',
+  'emailIdp/finishPasswordReset',
+
   'jwtRefresh/refreshAccessToken',
   'serverpod_auth_core.status/signOutDevice',
 };

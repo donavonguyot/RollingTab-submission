@@ -1,0 +1,9 @@
+class: AuthEmailAttempt
+table: rollingtab_auth_email_attempt
+serverOnly: true
+fields:
+  emailHash: String
+  createdAt: DateTime
+indexes:
+  auth_email_attempt_time:
+    fields: createdAt

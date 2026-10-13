@@ -21,12 +21,13 @@ import 'package:serverpod_auth_core_server/serverpod_auth_core_server.dart'
     as _iacs;
 import 'package:serverpod_auth_idp_server/serverpod_auth_idp_server.dart'
     as _iais;
-
+import 'auth_email_attempt.dart' as _i33vht8t;
 import 'backend_error.dart' as _iqxrv6kr;
 import 'catalog_score.dart' as _iqc3qjud;
 import 'passage_input.dart' as _i85ombtb;
 import 'provisioned_account.dart' as _iy03gsnl;
 import 'saved_passage.dart' as _i2lbtbsi;
+export 'auth_email_attempt.dart';
 export 'backend_error.dart';
 export 'catalog_score.dart';
 export 'passage_input.dart';
@@ -41,6 +42,50 @@ class Protocol extends _is.DatabaseSerializationManager {
   static final Protocol _instance = Protocol._().._registerHostProtocols();
 
   static List<_isp.TableDefinition> get targetTableDefinitions => [
+    _isp.TableDefinition(
+      name: 'rollingtab_auth_email_attempt',
+      dartName: 'AuthEmailAttempt',
+      schema: 'public',
+      module: 'rollingtab',
+      columns: [
+        _isp.ColumnDefinition(
+          name: 'id',
+          columnType: _isp.ColumnType.bigint,
+          isNullable: false,
+          dartType: 'int?',
+          columnDefault: 'serial',
+        ),
+        _isp.ColumnDefinition(
+          name: 'emailHash',
+          columnType: _isp.ColumnType.text,
+          isNullable: false,
+          dartType: 'String',
+        ),
+        _isp.ColumnDefinition(
+          name: 'createdAt',
+          columnType: _isp.ColumnType.timestampWithoutTimeZone,
+          isNullable: false,
+          dartType: 'DateTime',
+        ),
+      ],
+      foreignKeys: [],
+      indexes: [
+        _isp.IndexDefinition(
+          indexName: 'auth_email_attempt_time',
+          tableSpace: null,
+          elements: [
+            _isp.IndexElementDefinition(
+              type: _isp.IndexElementDefinitionType.column,
+              definition: 'createdAt',
+            ),
+          ],
+          type: 'btree',
+          isUnique: false,
+          isPrimary: false,
+        ),
+      ],
+      managed: true,
+    ),
     _isp.TableDefinition(
       name: 'rollingtab_catalog',
       dartName: 'CatalogScore',
@@ -380,6 +425,9 @@ class Protocol extends _is.DatabaseSerializationManager {
       }
     }
 
+    if (t == _i33vht8t.AuthEmailAttempt) {
+      return _i33vht8t.AuthEmailAttempt.fromJson(data) as T;
+    }
     if (t == _iqxrv6kr.BackendError) {
       return _iqxrv6kr.BackendError.fromJson(data) as T;
     }
@@ -394,6 +442,10 @@ class Protocol extends _is.DatabaseSerializationManager {
     }
     if (t == _i2lbtbsi.SavedPassage) {
       return _i2lbtbsi.SavedPassage.fromJson(data) as T;
+    }
+    if (t == _is.getType<_i33vht8t.AuthEmailAttempt?>()) {
+      return (data != null ? _i33vht8t.AuthEmailAttempt.fromJson(data) : null)
+          as T;
     }
     if (t == _is.getType<_iqxrv6kr.BackendError?>()) {
       return (data != null ? _iqxrv6kr.BackendError.fromJson(data) : null) as T;
@@ -437,6 +489,7 @@ class Protocol extends _is.DatabaseSerializationManager {
 
   static String? getClassNameForType(Type type) {
     return switch (type) {
+      _i33vht8t.AuthEmailAttempt => 'AuthEmailAttempt',
       _iqxrv6kr.BackendError => 'BackendError',
       _iqc3qjud.CatalogScore => 'CatalogScore',
       _i85ombtb.PassageInput => 'PassageInput',
@@ -456,6 +509,8 @@ class Protocol extends _is.DatabaseSerializationManager {
     }
 
     switch (data) {
+      case _i33vht8t.AuthEmailAttempt():
+        return 'AuthEmailAttempt';
       case _iqxrv6kr.BackendError():
         return 'BackendError';
       case _iqc3qjud.CatalogScore():
@@ -491,6 +546,9 @@ class Protocol extends _is.DatabaseSerializationManager {
     var dataClassName = data['className'];
     if (dataClassName is! String) {
       return super.deserializeByClassName(data);
+    }
+    if (dataClassName == 'AuthEmailAttempt') {
+      return deserialize<_i33vht8t.AuthEmailAttempt>(data['data']);
     }
     if (dataClassName == 'BackendError') {
       return deserialize<_iqxrv6kr.BackendError>(data['data']);
@@ -548,6 +606,8 @@ class Protocol extends _is.DatabaseSerializationManager {
       }
     }
     switch (t) {
+      case _i33vht8t.AuthEmailAttempt:
+        return _i33vht8t.AuthEmailAttempt.t;
       case _iqc3qjud.CatalogScore:
         return _iqc3qjud.CatalogScore.t;
       case _iy03gsnl.ProvisionedAccount:

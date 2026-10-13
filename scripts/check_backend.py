@@ -26,7 +26,7 @@ try:
  urllib.request.urlopen(base+'/api/catalog/list')
  raise AssertionError('GET bridge unexpectedly accepted')
 except urllib.error.HTTPError as e:assert e.code==405
-for path in ['emailIdp/startRegistration','emailIdp/startPasswordReset','unrelated/operation']:
+for path in ['unrelated/operation']:
  call(op,path,{},expected=403)
 call(op,'catalog/list',{},expected=403,origin='https://foreign.invalid')
 sessions=[]
@@ -67,6 +67,6 @@ for tempo in [.24,.735,1.51]:
 report.update(savedSpeeds=[25,50,73,75,100,150],invalidSpeedsDenied=[24,73.5,151])
 call(a,'serverpod_auth_core.status/signOutDevice',{},at)
 call(a,'jwtRefresh/refreshAccessToken',{'refreshToken':None},expected=400)
-report.update(guestPlaybackContent=True,anonymousWritesDenied=True,registrationDisabled=True,foreignOriginDenied=True,cookieRefresh=True,ownerIsolation=True,idempotentSave=True,revisionConflict=True,renameDelete=True,signOutRevokes=True)
+report.update(guestPlaybackContent=True,anonymousWritesDenied=True,selfServiceEnabled=call(op,'emailIdp/selfServiceEnabled',{}),foreignOriginDenied=True,cookieRefresh=True,ownerIsolation=True,idempotentSave=True,revisionConflict=True,renameDelete=True,signOutRevokes=True)
 (root/os.environ.get('ROLLINGTAB_BACKEND_REPORT','.private/independent-backend.json')).write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps(report,indent=2))

@@ -68,3 +68,18 @@ scripts/build_macos.sh --dart-define=ROLLINGTAB_API_BASE=https://rollingtab.api.
 ```
 
 Builds use the normal production interface without enabling evidence controls. Deployment operations and production secrets are intentionally outside this source handoff.
+
+## Optional self-service signup and recovery
+
+The default build supports guest practice and existing-account login without Resend credentials. To enable signup/reset, create a sending-only Resend key scoped to your verified domain, add `resendApiKey` under the applicable mode in ignored `rollingtab_server/config/passwords.yaml`, and start the server with:
+
+```sh
+export ROLLINGTAB_SELF_SERVICE_AUTH_ENABLED=true
+export ROLLINGTAB_EMAIL_FROM='RollingTAB <noreply@mail.your-domain.example>'
+```
+
+Use your own verified sender. The hosted sender is `RollingTAB <noreply@mail.rollingtab.com>`. Never commit the key. Tests inject an in-memory sender; no emails are sent by `dart test`. The additive migration creates a send-budget table; it does not replace account or passage data. Limits are one request per email per minute, three per hour, and 100 globally per hour, shared across signup/reset and enforced on direct API requests too. Failed sends consume a slot. New requests invalidate the previous registration code.
+
+After endpoint/model changes, use Serverpod CLI 4.0.3 from `rollingtab_server` to run `serverpod generate`; run `serverpod create-migration` only when the schema changes. Generated clients and migrations are committed for ordinary fresh-checkout builds.
+
+Production uses the existing Serverpod Cloud project and authentication secrets. Configure the new sender and secret, deploy with self-service disabled for the initial route checks, then enable and redeploy for acceptance. If acceptance fails, set the flag false and redeploy or restore the previous compatible code package; keep the additive table and existing authentication secrets. Monitor sanitized authentication-email failures and Resend delivery events. SMTP, marketing emails, receiving email, and email tracking are not used.

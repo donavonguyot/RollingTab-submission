@@ -15,8 +15,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3028,
-      "sha256": "778d6d54b11ff5703c9707284ac10c3816df8316cc37857b093c897e812a58e8"
+      "bytes": 3094,
+      "sha256": "d01d11ac8d883b7c0dcae82960f91350edf6cc967bc87cf53d681a88e664b8c8"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -75,23 +75,23 @@
     },
     {
       "path": "docs/DEVELOPMENT.md",
-      "bytes": 4103,
-      "sha256": "90ef3151f358f25b60cea0fd304401a6877987c77d30c2948f009999493f20ef"
+      "bytes": 5916,
+      "sha256": "f0d855c1be00441f2cc2b77828aff3f04084016b05c544139a39cf74b7b751ee"
     },
     {
       "path": "docs/JUDGE_GUIDE.md",
-      "bytes": 2062,
-      "sha256": "ea944260d1d5b8b6001975a6f05cd9b40aff6ef0500497ea8af8a79e29e0b85e"
+      "bytes": 2347,
+      "sha256": "5078f1dd49f64b82ac6fe398e86d6351702944eaaf90b026ade0c44b799ae1b3"
     },
     {
       "path": "docs/SUBMISSION_HANDOFF.md",
-      "bytes": 2539,
-      "sha256": "0b67886ee55b3117a4cfc290d1d91a394ea703e79cfcc03c36b3ea4e2eecadfa"
+      "bytes": 2512,
+      "sha256": "d7ef04621d0400830d814f3b5cf81b201345085afad3e0eb6c390be58d2ebe38"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 3206,
-      "sha256": "4f0328d09cbc84633647cd2d20d7dcfa3e7ab0393b30cb4b94b4b80ca116e1a9"
+      "bytes": 4552,
+      "sha256": "15deef174a4c7ad24af2cbcb0e7a7ae36a6fa26a8819145f739bfab5b5854760"
     },
     {
       "path": "hook/build.dart",
@@ -110,8 +110,8 @@
     },
     {
       "path": "lib/backend/connection.dart",
-      "bytes": 11050,
-      "sha256": "20f63315030c293272ca28ec86d0a50fda8861fcbc1b2d46a63ff0e67e883756"
+      "bytes": 13617,
+      "sha256": "8c97ffec2a4da2081657269cc42a0b8eb9b2600e44021d1f1c46cab0fb37d59b"
     },
     {
       "path": "lib/backend/http_client.dart",
@@ -170,8 +170,8 @@
     },
     {
       "path": "lib/main.dart",
-      "bytes": 48427,
-      "sha256": "343870d2537038554ccb7d2402f6a52d0976e209d8a16bac6492354bc4331a45"
+      "bytes": 45528,
+      "sha256": "15507aa1b67fae2ab925b53efbac9057f96f769727a731f90e8c9d032d8a384e"
     },
     {
       "path": "lib/model/music.dart",
@@ -202,6 +202,11 @@
       "path": "lib/vendor/pdmx_document.dart",
       "bytes": 72382,
       "sha256": "e8bbe502015b03b67ad5294760ec8efb0b7c32edbea3c08e9899bf22ebd18303"
+    },
+    {
+      "path": "lib/widgets/auth_dialog.dart",
+      "bytes": 9443,
+      "sha256": "d1b93440ca3fdf3e00fc472cd1a89e0acee42744dde6dc7479e7b283a31e5672"
     },
     {
       "path": "lib/widgets/slider_overlay.dart",
@@ -242,6 +247,31 @@
       "path": "macos/Podfile.lock",
       "bytes": 602,
       "sha256": "ada21c6ed29f8555488e4b267a9ca19fcc735ff5bf6d476db57e549851a5c503"
+    },
+    {
+      "path": "macos/Runner.xcodeproj/project.pbxproj",
+      "bytes": 34351,
+      "sha256": "c2737ddb75cf9dd049af750451100ce62748ebb51da3041f418fcba2ed7c4b32"
+    },
+    {
+      "path": "macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "bytes": 238,
+      "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542"
+    },
+    {
+      "path": "macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme",
+      "bytes": 4580,
+      "sha256": "1999c859c2c0e659e752bcb426cd899eb9a7fc04b707173a662dbe5129b82a78"
+    },
+    {
+      "path": "macos/Runner.xcworkspace/contents.xcworkspacedata",
+      "bytes": 224,
+      "sha256": "465e6de5660384eb6832e8078920ba6cd5305c445cb29a24a86a2fda4aa6b67e"
+    },
+    {
+      "path": "macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "bytes": 238,
+      "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542"
     },
     {
       "path": "macos/Runner/AppDelegate.swift",
@@ -332,31 +362,6 @@
       "path": "macos/Runner/Release.entitlements",
       "bytes": 350,
       "sha256": "f702713a9f64c5549bf415e1a11c22bb9b739e1f422a0fbfab0088a19b0c48cb"
-    },
-    {
-      "path": "macos/Runner.xcodeproj/project.pbxproj",
-      "bytes": 34351,
-      "sha256": "c2737ddb75cf9dd049af750451100ce62748ebb51da3041f418fcba2ed7c4b32"
-    },
-    {
-      "path": "macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
-      "bytes": 238,
-      "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542"
-    },
-    {
-      "path": "macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme",
-      "bytes": 4580,
-      "sha256": "1999c859c2c0e659e752bcb426cd899eb9a7fc04b707173a662dbe5129b82a78"
-    },
-    {
-      "path": "macos/Runner.xcworkspace/contents.xcworkspacedata",
-      "bytes": 224,
-      "sha256": "465e6de5660384eb6832e8078920ba6cd5305c445cb29a24a86a2fda4aa6b67e"
-    },
-    {
-      "path": "macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
-      "bytes": 238,
-      "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542"
     },
     {
       "path": "macos/RunnerTests/RunnerTests.swift",
@@ -460,8 +465,8 @@
     },
     {
       "path": "rollingtab_client/lib/src/protocol/client.dart",
-      "bytes": 6957,
-      "sha256": "91dd7a6ce7fc5435a8c993dcc7441df671874d93eef43bea7b8e7266a72ebcc3"
+      "bytes": 8825,
+      "sha256": "ca0d5d3c7b7ba4d66f0bc6d6a7cf5f4be03351b63f9c7564e4856ca7d74bb9a4"
     },
     {
       "path": "rollingtab_client/lib/src/protocol/passage_input.dart",
@@ -490,8 +495,8 @@
     },
     {
       "path": "rollingtab_server/README.md",
-      "bytes": 934,
-      "sha256": "5e28cb788d5dfe28427b7558b30c1f212bb7072e80d29630a16f19938cab1830"
+      "bytes": 1012,
+      "sha256": "e6500e1e9ac9984ad1535df6622dd4d7de0a44a248cc2230c9f366d03a02b3ea"
     },
     {
       "path": "rollingtab_server/analysis_options.yaml",
@@ -590,13 +595,18 @@
     },
     {
       "path": "rollingtab_server/lib/server.dart",
-      "bytes": 3171,
-      "sha256": "df7745e04e947c02966e6db32369842e286b46111c28d28368d20bde650f4319"
+      "bytes": 4230,
+      "sha256": "eb6e21847259273e98ceba05207738de4c31a5654ed2ae97fb8f5a6b37b27c4e"
+    },
+    {
+      "path": "rollingtab_server/lib/src/auth/auth_email.dart",
+      "bytes": 5566,
+      "sha256": "47c54a44877cf2cbe939fecb99e42e4cb71a5dbb1f57c425c9db109823e9fa4c"
     },
     {
       "path": "rollingtab_server/lib/src/auth/email_idp_endpoint.dart",
-      "bytes": 497,
-      "sha256": "d3788325e927d491942d84a4154ea991551ecfeb86ff992433c7f9186c49893c"
+      "bytes": 2758,
+      "sha256": "ca8847754933184a8b72bb5e68d036eac7540000b5652ed7c6b6d5aadb17d23b"
     },
     {
       "path": "rollingtab_server/lib/src/auth/jwt_refresh_endpoint.dart",
@@ -614,6 +624,11 @@
       "sha256": "b2a4d5ddd6e78bbb2834ed861aebdf6a85eb374f125c7ff532927517b71f0a82"
     },
     {
+      "path": "rollingtab_server/lib/src/generated/auth_email_attempt.dart",
+      "bytes": 19811,
+      "sha256": "355cea6de78aeeac1abc4086921bf68d1cabe43db084b280ed568c1cc100046a"
+    },
+    {
       "path": "rollingtab_server/lib/src/generated/backend_error.dart",
       "bytes": 2281,
       "sha256": "0d9e79bb58ef42522c3a8a5c28682ab0a24bd6e270794cbf55c0dfe224efc52c"
@@ -625,8 +640,8 @@
     },
     {
       "path": "rollingtab_server/lib/src/generated/endpoints.dart",
-      "bytes": 6674,
-      "sha256": "5882b3fcc5871851072badafb9694334d212a10206fd53c6d2f407f3d132a3e4"
+      "bytes": 12041,
+      "sha256": "40d5cebdb6c24b302421eaa587fce14b7dee736772e2844611a0a3330bef4057"
     },
     {
       "path": "rollingtab_server/lib/src/generated/passage_input.dart",
@@ -635,13 +650,13 @@
     },
     {
       "path": "rollingtab_server/lib/src/generated/protocol.dart",
-      "bytes": 17999,
-      "sha256": "07b2d578c9184e5c21dd276babde3c59162505e75951792e2a6ab0d33942b8e8"
+      "bytes": 19907,
+      "sha256": "7543d13f42b5af1da3f2485d3b528880a888026e2cab823bb2bfb2ba452daaee"
     },
     {
       "path": "rollingtab_server/lib/src/generated/protocol.yaml",
-      "bytes": 135,
-      "sha256": "628e7446a4d3ce2eaa07ba32abf34de59fd4baa1a127b9e0d03f7dd3838840ea"
+      "bytes": 312,
+      "sha256": "97018725c8c239aac55754017b684d116074e094b12e5a68fb7c04c9377619d8"
     },
     {
       "path": "rollingtab_server/lib/src/generated/provisioned_account.dart",
@@ -655,8 +670,13 @@
     },
     {
       "path": "rollingtab_server/lib/src/generated/serverpod.dart",
-      "bytes": 2325,
-      "sha256": "0a7199914c25d41664ac5bfe95b32ca3d4dba04ab8cfc2cd3a5c1b1de334efb5"
+      "bytes": 2322,
+      "sha256": "01ccc01098cdc5d5a400a52522df69c4634e1df530db9a9cc9b541111d7bc19e"
+    },
+    {
+      "path": "rollingtab_server/lib/src/models/auth_email_attempt.spy.yaml",
+      "bytes": 186,
+      "sha256": "806763f8d0a825e98fc5224e5a597d0826d10e9b0aedffee84f5ee655fcea5a2"
     },
     {
       "path": "rollingtab_server/lib/src/models/backend_error.spy.yaml",
@@ -690,8 +710,8 @@
     },
     {
       "path": "rollingtab_server/lib/src/web_routes.dart",
-      "bytes": 4655,
-      "sha256": "0d30fb99fc1fcb250c9692ebb57a8a0d6c8a51c24df12fe51f8b4d0396f300ec"
+      "bytes": 4896,
+      "sha256": "b3a8c22ce6c70bd2ae9e97dceffd9616553f1416246a2616266255cdee3ca066"
     },
     {
       "path": "rollingtab_server/migrations/20261009235348754/definition.json",
@@ -744,9 +764,34 @@
       "sha256": "fef007dc34cc676117d845e43b57f78cc8a4d584cb10b68fd70f79937ad5e841"
     },
     {
+      "path": "rollingtab_server/migrations/20261013223938297/definition.json",
+      "bytes": 106016,
+      "sha256": "46c5f1b1ca248b69e452ecadb163c42cbf5628462d3e900a1d484212707956c2"
+    },
+    {
+      "path": "rollingtab_server/migrations/20261013223938297/definition.sql",
+      "bytes": 28234,
+      "sha256": "462d3886bbf736631e407ad354ba9980950f1644dd94e694a09aec31f07725da"
+    },
+    {
+      "path": "rollingtab_server/migrations/20261013223938297/definition_project.json",
+      "bytes": 13060,
+      "sha256": "9105040976a46eab6527cb1fbe8389b0d5cd5ee12dfdfeed02905ad4c8d228ed"
+    },
+    {
+      "path": "rollingtab_server/migrations/20261013223938297/migration.json",
+      "bytes": 1778,
+      "sha256": "6259e68e6004f9bc3feb78a2ea35591e2e9a95ddd1b38557063befdd1e1c62c2"
+    },
+    {
+      "path": "rollingtab_server/migrations/20261013223938297/migration.sql",
+      "bytes": 1423,
+      "sha256": "2ed5024f03436bc678168c78813cbb72f26bbbce4a1d9bfbff42f3baa4c60746"
+    },
+    {
       "path": "rollingtab_server/migrations/migration_registry.txt",
-      "bytes": 325,
-      "sha256": "b2863f772ae60b1ee0bb6b851bca1b15fc1ee57fcde18a358bf9d02c9a2f895f"
+      "bytes": 343,
+      "sha256": "28718815f957ee4423f677c8d7f8dcc6f1064de9a2db109224cecd2d892b47c9"
     },
     {
       "path": "rollingtab_server/pubspec.lock",
@@ -759,9 +804,19 @@
       "sha256": "60817d9a9ca00eb8744670c0f27b272a29a6f77044d28e66c0a71bcaa207544f"
     },
     {
+      "path": "rollingtab_server/test/auth_email_test.dart",
+      "bytes": 2598,
+      "sha256": "5920e926f8d386400f31354124250a9ce8bf05b83e0e99a3a962afe05115069e"
+    },
+    {
       "path": "rollingtab_server/test/catalog_assets_test.dart",
       "bytes": 2076,
       "sha256": "d6a637452bf927fcf4841ed228b8dcedd8b16ecb7e7a9b1bbad2a0f2b2ae283d"
+    },
+    {
+      "path": "rollingtab_server/test/integration/auth_test.dart",
+      "bytes": 10866,
+      "sha256": "729c28ba2759e7c790cc8c7bab7eb1a7c961f9ca68c6aa8f11500909a11e2017"
     },
     {
       "path": "rollingtab_server/test/integration/practice_test.dart",
@@ -770,8 +825,8 @@
     },
     {
       "path": "rollingtab_server/test/integration/test_tools/serverpod_test_tools.dart",
-      "bytes": 16481,
-      "sha256": "2d31116eff6e5febc1296ae4a762935267a0904d0751cc0c0fe1f7f5da987815"
+      "bytes": 25152,
+      "sha256": "175792f9f7ce36fcffe9fe6411dcd4089d9d208132845e3415f9af35a2ce93a7"
     },
     {
       "path": "rollingtab_server/web/templates/built_with_serverpod.html",
@@ -860,8 +915,8 @@
     },
     {
       "path": "scripts/check_backend.py",
-      "bytes": 4891,
-      "sha256": "f9807e4649e3aa5c187aeba3ec22257979a7fa2d92a3dd73f8aaba422b483ff2"
+      "bytes": 4867,
+      "sha256": "8ec0e500de06df2c4d9b15791490bb763c72ac5ad1d9f6c4d2d5c48c6ff199ff"
     },
     {
       "path": "scripts/check_repertoire.py",
@@ -897,6 +952,11 @@
       "path": "scripts/toolchain.sh",
       "bytes": 923,
       "sha256": "3b8e6091eae82070456546d4e0de4f026e092dddd39f30360b3fa289751316c4"
+    },
+    {
+      "path": "test/auth_flow_test.dart",
+      "bytes": 5826,
+      "sha256": "7df4c27727de74a83f4cc0bbbfb2bee8ad9909b37fc9be6d10439e267ab99a78"
     },
     {
       "path": "test/backend_test.dart",

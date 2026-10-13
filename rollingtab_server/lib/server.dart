@@ -6,6 +6,7 @@ import 'package:serverpod_auth_idp_server/providers/email.dart';
 import 'src/generated/serverpod.dart';
 import 'src/catalog.dart';
 import 'src/bootstrap.dart';
+import 'src/auth/auth_email.dart';
 import 'src/web_routes.dart';
 
 Serverpod createServer(List<String> args) {
@@ -27,25 +28,53 @@ Serverpod createServer(List<String> args) {
       );
     }
   }
+  SelfServiceAuth.enabled =
+      Platform.environment['ROLLINGTAB_SELF_SERVICE_AUTH_ENABLED'] == 'true';
+  SelfServiceAuth.pepper = pod.getPassword('emailSecretHashPepper')!;
+  SelfServiceAuth.sender = null;
+  if (SelfServiceAuth.enabled) {
+    final key = pod.getPassword('resendApiKey');
+    final from = Platform.environment['ROLLINGTAB_EMAIL_FROM'];
+    if (key == null || key.isEmpty || from == null || from.isEmpty) {
+      throw StateError(
+        'Self-service auth requires resendApiKey and ROLLINGTAB_EMAIL_FROM.',
+      );
+    }
+    SelfServiceAuth.sender = ResendAuthEmailSender(apiKey: key, from: from);
+  }
   pod.initializeAuthServices(
     tokenManagerBuilders: [JwtConfigFromPasswords()],
     identityProviderBuilders: [
       EmailIdpConfig(
         secretHashPepper: pod.getPassword('emailSecretHashPepper')!,
-        sendRegistrationVerificationCode: (
-          session, {
-          required email,
-          required accountRequestId,
-          required verificationCode,
-          required transaction,
-        }) async => throw UnsupportedError('Invited accounts only'),
-        sendPasswordResetVerificationCode: (
-          session, {
-          required email,
-          required passwordResetRequestId,
-          required verificationCode,
-          required transaction,
-        }) async => throw UnsupportedError('Operator-managed accounts'),
+        sendRegistrationVerificationCode:
+            (
+              session, {
+              required email,
+              required accountRequestId,
+              required verificationCode,
+              required transaction,
+            }) => SelfServiceAuth.deliver(
+              session,
+              email: email,
+              requestId: accountRequestId.toString(),
+              code: verificationCode,
+              passwordReset: false,
+            ),
+        sendPasswordResetVerificationCode:
+            (
+              session, {
+              required email,
+              required passwordResetRequestId,
+              required verificationCode,
+              required transaction,
+            }) => SelfServiceAuth.deliver(
+              session,
+              email: email,
+              requestId: passwordResetRequestId.toString(),
+              code: verificationCode,
+              passwordReset: true,
+            ),
       ),
     ],
   );

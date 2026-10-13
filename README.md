@@ -6,14 +6,14 @@ Practice a guitar passage with audible playback, moving Perspective TAB, and a N
 
 ## What is included
 
-- Guest practice without sign-in; invited accounts save named passages.
+- Guest practice without sign-in; verified accounts save named passages.
 - Five scores matching the published collection: Paganini, Carulli Vals, Carcassi No. 11, Bach Bourrée, and Carulli La sautillante, plus authored studies.
 - Pitch-preserving speed from 25–150%, passage loops up to 60 score seconds, left-handed fretboards, light/dark appearance and reduced motion.
-- Source TAB is labeled separately from inferred string/fret guidance. Positions are expected positions, not detected fingers. Recognition, public registration and uploads are outside this submission.
+- Source TAB is labeled separately from inferred string/fret guidance. Positions are expected positions, not detected fingers. Email signup and password recovery use Serverpod verification codes delivered by Resend. Recognition and uploads are outside this submission.
 
 ## How it works
 
-Flutter renders the practice interface and synthesizes SoundFont audio locally. Serverpod supplies the catalog and immutable score bytes, authenticates invited accounts, and stores each account's saved passages in PostgreSQL. Serverpod Cloud hosts the public demo. The local backend owns its own database and requires no sibling application.
+Flutter renders the practice interface and synthesizes SoundFont audio locally. Serverpod supplies the catalog and immutable score bytes, authenticates accounts, and stores each account's saved passages in PostgreSQL. Serverpod Cloud hosts the public demo. The local backend owns its own database and requires no sibling application.
 
 ## Build and judge
 
@@ -35,6 +35,6 @@ Open http://localhost:9895/play/ and press Play to enable audio. Existing servic
 
 ## Submission status and attribution
 
-[Submission handoff](docs/SUBMISSION_HANDOFF.md) lists the remaining private repository, judge-access and video steps. [Verification](docs/VERIFICATION.md) distinguishes executed checks from pending acceptance. This source snapshot is separate from the author's development repository and contains no earlier Git history, raw internal review logs or sibling-project inventories.
+[Submission handoff](docs/SUBMISSION_HANDOFF.md) lists the public repository, account acceptance and remaining video steps. [Verification](docs/VERIFICATION.md) distinguishes executed checks from pending acceptance. This source snapshot is separate from the author's development repository and contains no earlier Git history, raw internal review logs or sibling-project inventories.
 
 [Attribution](THIRD_PARTY.md) and [score credits](rollingtab_server/assets/scores/SOURCE_CREDITS.md) retain component origins and third-party licenses. The repository is supplied for private judging; no project-wide open-source license is granted.

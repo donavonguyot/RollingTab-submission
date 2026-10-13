@@ -95,8 +95,8 @@
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 6727,
-      "sha256": "6a86eb37e52fc0a4c765574439e1b93de4fe2b702a9ea4db4cb76ec707103405"
+      "bytes": 7145,
+      "sha256": "fe09b605ba6ad2c9871cf2997a7e4a41f139c6254f4f779ae3eccf387d83c44a"
     },
     {
       "path": "hook/build.dart",
@@ -175,8 +175,8 @@
     },
     {
       "path": "lib/main.dart",
-      "bytes": 45572,
-      "sha256": "c14437fa0db4e8f857b5ee5bb52a1e551cb035685fa058675d40808080490ec6"
+      "bytes": 45565,
+      "sha256": "41a5eed7ee69b88507ceabb6206cdf2b85496df3f73216efdade5de2965ed034"
     },
     {
       "path": "lib/model/music.dart",
@@ -195,8 +195,8 @@
     },
     {
       "path": "lib/surface/guitar_surface.dart",
-      "bytes": 12286,
-      "sha256": "1f3c03d6af3a6f68e2f2132c3e9bae5965f34f6c4dc521178a1dd546f25411b1"
+      "bytes": 12843,
+      "sha256": "d7c74c3e2c6b4c170eb699b547fc5e3e0ee4f80bd8523a9e957ef7b1270a5eef"
     },
     {
       "path": "lib/surface/voicing_panel.dart",
@@ -975,8 +975,8 @@
     },
     {
       "path": "test/handedness_test.dart",
-      "bytes": 5497,
-      "sha256": "e3d779e2f10e73e6eae5379c1a9a25a5f8cb2c7bbfe095de51231d81804d1097"
+      "bytes": 5924,
+      "sha256": "721dd293202ab6938483e8c592a75aca14de76789db58020a2617bb578eca2de"
     },
     {
       "path": "test/independent_connection_test.dart",

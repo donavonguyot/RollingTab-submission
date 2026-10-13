@@ -69,15 +69,26 @@ void main() {
           }
           double span(GuitarProjection p, double at) =>
               (p.point(low, at) - p.point(high, at)).distance;
+          expect(
+            VoicingPainter.fretX(0, size.width, 5, leftHanded: true),
+            greaterThan(
+              VoicingPainter.fretX(5, size.width, 5, leftHanded: true),
+            ),
+          );
+          expect(
+            VoicingPainter.fretX(0, size.width, 5),
+            lessThan(VoicingPainter.fretX(5, size.width, 5)),
+          );
           if (depth > 0) {
-            // The nearer end is larger; handedness must swap that perspective.
+            // Match a held guitar: left-handed body on left, nut on right.
+            // The body end is nearer/larger; the headstock end recedes.
             expect(
               span(right, state.time),
-              greaterThan(span(right, state.time + options.lookAhead)),
+              lessThan(span(right, state.time + options.lookAhead)),
             );
             expect(
               span(left, state.time),
-              lessThan(span(left, state.time + options.lookAhead)),
+              greaterThan(span(left, state.time + options.lookAhead)),
             );
           } else {
             expect(left.point(high, state.time), right.point(high, state.time));

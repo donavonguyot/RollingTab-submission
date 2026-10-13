@@ -29,10 +29,13 @@ class GuitarProjection {
     final aspect = size.width / size.height;
     final centerX = size.width < 600 ? 4.0 : 5.0;
     final distance = math.max(5.8, 11.8 / aspect) / (2 * math.tan(.35));
-    // View the timing surface from the opposite end for left-handed playing.
-    // Keep world X as time: reflecting the scene would reverse playback too.
-    // Labels and hit targets use this same camera without mirroring the canvas.
-    final viewpoint = options.leftHanded ? 1.0 : -1.0;
+    // Look from the body toward the fretting hand. A left-handed guitar has
+    // its body on the player's left and its neck/headstock on their right;
+    // a right-handed guitar has the opposite orientation. Match the voicing
+    // boards (left-handed nut on the right), rather than flipping arbitrarily.
+    // World X remains time, so the notes still travel toward the left edge.
+    // Billboard labels and hit targets share the camera, never a canvas flip.
+    final viewpoint = options.leftHanded ? -1.0 : 1.0;
     camera = fs.PerspectiveCamera(
       position: vm.Vector3(
         centerX + viewpoint * options.depth * 5,
@@ -199,7 +202,9 @@ class _GuitarSurfaceState extends State<GuitarSurface> {
         return Semantics(
           label:
               'Guitar timing. Six strings, high E to low E. '
-              '${o.leftHanded ? 'Left' : 'Right'}-handed view.',
+              '${o.leftHanded ? 'Left' : 'Right'}-handed guitar. '
+              '${o.leftHanded ? 'Right' : 'Left'} hand frets; '
+              'neck points ${o.leftHanded ? 'right' : 'left'}.',
           child: GestureDetector(
             onTapDown: (event) {
               TabNote? hit;
@@ -290,6 +295,13 @@ class GuitarPainter extends CustomPainter {
       '${o.effects ? 'PERSPECTIVE TAB' : 'FLAT TAB'}'
       '${o.leftHanded ? ' · LEFT-HANDED' : ''}',
       const Offset(16, 12),
+      size: 10,
+    );
+    text(
+      canvas,
+      '${o.leftHanded ? 'Right' : 'Left'} hand frets · '
+      'neck points ${o.leftHanded ? 'right →' : '← left'}',
+      const Offset(16, 27),
       size: 10,
     );
     for (var s = 1; s <= 6; s++) {

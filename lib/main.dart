@@ -1044,7 +1044,7 @@ class _RollingTabAppState extends State<RollingTabApp>
             contentPadding: EdgeInsets.zero,
             title: const Text('Left-handed view'),
             subtitle: const Text(
-              'Reverse the perspective and mirror the fretboards. '
+              'Right hand on the frets, left hand picking. '
               'Playback direction stays the same.',
             ),
             value: options.leftHanded,

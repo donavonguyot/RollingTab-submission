@@ -15,8 +15,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3094,
-      "sha256": "d01d11ac8d883b7c0dcae82960f91350edf6cc967bc87cf53d681a88e664b8c8"
+      "bytes": 3155,
+      "sha256": "dc07ca253271b0598cffe06e62a20503cae232333499208f4f7d08a70e8dc158"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -74,6 +74,11 @@
       "sha256": "f45b6b4a68b6bf3d792fcbb6d7de24dc701a0f89c5900a21ef3aaece993b839a"
     },
     {
+      "path": "docs/DEMO_VIDEO.md",
+      "bytes": 10410,
+      "sha256": "85a8a9ded24c3575885e7374ccacfac9d858e19739fe038a382260fe9890c435"
+    },
+    {
       "path": "docs/DEVELOPMENT.md",
       "bytes": 5916,
       "sha256": "f0d855c1be00441f2cc2b77828aff3f04084016b05c544139a39cf74b7b751ee"
@@ -85,13 +90,13 @@
     },
     {
       "path": "docs/SUBMISSION_HANDOFF.md",
-      "bytes": 2544,
-      "sha256": "903239c2fbc71ba71126a4922416dc04194fc211e18a5f6ee2247fd7441330da"
+      "bytes": 2665,
+      "sha256": "6cf5f1acd29cdc148d06435464eb4684edabd4f8b9b7b6c43cd975fce7ae7409"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 5817,
-      "sha256": "a103d9fc7954469958099549e07398d9e6c7436d2d3359532cbba3502552b7e7"
+      "bytes": 6727,
+      "sha256": "6a86eb37e52fc0a4c765574439e1b93de4fe2b702a9ea4db4cb76ec707103405"
     },
     {
       "path": "hook/build.dart",
@@ -170,8 +175,8 @@
     },
     {
       "path": "lib/main.dart",
-      "bytes": 45528,
-      "sha256": "15507aa1b67fae2ab925b53efbac9057f96f769727a731f90e8c9d032d8a384e"
+      "bytes": 45572,
+      "sha256": "c14437fa0db4e8f857b5ee5bb52a1e551cb035685fa058675d40808080490ec6"
     },
     {
       "path": "lib/model/music.dart",
@@ -190,8 +195,8 @@
     },
     {
       "path": "lib/surface/guitar_surface.dart",
-      "bytes": 11110,
-      "sha256": "9f74ebca902e4e8c2e399d56cb3371fcc7ee7a2438f4c11582ef96939773fdfc"
+      "bytes": 12286,
+      "sha256": "1f3c03d6af3a6f68e2f2132c3e9bae5965f34f6c4dc521178a1dd546f25411b1"
     },
     {
       "path": "lib/surface/voicing_panel.dart",
@@ -970,8 +975,8 @@
     },
     {
       "path": "test/handedness_test.dart",
-      "bytes": 2732,
-      "sha256": "d713dcbb4f6f6b1099b12dd4cc4c191ec72af7bcf98925a8f7ed0dcd356e6467"
+      "bytes": 5497,
+      "sha256": "e3d779e2f10e73e6eae5379c1a9a25a5f8cb2c7bbfe095de51231d81804d1097"
     },
     {
       "path": "test/independent_connection_test.dart",

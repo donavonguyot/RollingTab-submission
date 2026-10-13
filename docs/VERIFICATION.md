@@ -41,3 +41,9 @@ The submission repository now includes Serverpod email signup and password reset
 - Hosted Chrome: guest Vals playback initialized and advanced; sign-in preserved the pending save at 73%. A named passage saved, survived a full browser reload, and reopened paused with 0.00–32.73-second bounds, 73% speed, and loop enabled. Signup/reset dialog navigation and completion were additionally verified by Flutter widget tests; full account creation/recovery completion was exercised through the hosted HTTP protocol.
 - Production homepage, Flutter assets, isolation headers, media ranges and all five score hashes passed. Resend/DNS configuration and the sending-only credential are managed outside source. The original source repository and its existing history were unchanged.
 - The integration suites share configured ports; `dart_test.yaml` serializes test files to avoid intermittent bind conflicts.
+
+## Left-handed perspective update
+
+- The handedness switch now reverses the perspective camera angle as well as mirroring the voicing fretboards. Time still progresses toward the same arrival edge; string identities and upright labels are preserved. Markers adapt to projected string spacing to avoid overlap in short windows.
+- Flutter analysis and all **62 tests** passed. Nine projection cases cover compact, normal and wide/short surfaces at zero, default and maximum depth, checking time direction, string order, reversed foreshortening and marker spacing. Existing widget tests retain note selection and timing across both voicing layouts.
+- Release Wasm build passed. Local Chrome inspection confirmed the opposite perspective, upright labels, playback, selection at the projected note position, and flat/reduced-motion compatibility. Hosted release acceptance is recorded separately after deployment.

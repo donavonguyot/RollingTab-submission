@@ -1042,9 +1042,10 @@ class _RollingTabAppState extends State<RollingTabApp>
           const SizedBox(height: 12),
           SwitchListTile(
             contentPadding: EdgeInsets.zero,
-            title: const Text('Left-handed fretboard'),
+            title: const Text('Left-handed view'),
             subtitle: const Text(
-              'Mirror the voicing boards. TAB timing stays the same.',
+              'Reverse the perspective and mirror the fretboards. '
+              'Playback direction stays the same.',
             ),
             value: options.leftHanded,
             onChanged: (value) {

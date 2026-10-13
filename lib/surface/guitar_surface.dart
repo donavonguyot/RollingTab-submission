@@ -29,8 +29,16 @@ class GuitarProjection {
     final aspect = size.width / size.height;
     final centerX = size.width < 600 ? 4.0 : 5.0;
     final distance = math.max(5.8, 11.8 / aspect) / (2 * math.tan(.35));
+    // View the timing surface from the opposite end for left-handed playing.
+    // Keep world X as time: reflecting the scene would reverse playback too.
+    // Labels and hit targets use this same camera without mirroring the canvas.
+    final viewpoint = options.leftHanded ? 1.0 : -1.0;
     camera = fs.PerspectiveCamera(
-      position: vm.Vector3(centerX - options.depth * 5, 0, -distance),
+      position: vm.Vector3(
+        centerX + viewpoint * options.depth * 5,
+        0,
+        -distance,
+      ),
       target: vm.Vector3(centerX, 0, 0),
       fovRadiansY: .7,
     );
@@ -48,6 +56,17 @@ class GuitarProjection {
         ? -.06 - techniqueSemitones(n, at) * .12
         : -.06,
   );
+  // Billboard text stays upright, but markers must fit the foreshortened lanes.
+  double stringSpacing(double at) {
+    if (!options.effects) return (size.height - 55) / 5;
+    final x = (at - state.time) / options.lookAhead * 10;
+    final a = camera.worldToScreen(vm.Vector3(x, 0, -.06), size);
+    final b = camera.worldToScreen(vm.Vector3(x, .68, -.06), size);
+    return a == null || b == null ? 24 : (b - a).distance;
+  }
+
+  double markerRadius(double at) => math.min(10, stringSpacing(at) * .44);
+
   Offset point(TabNote n, double at) {
     if (options.effects) {
       return camera.worldToScreen(world(n, at, technique: false), size) ??
@@ -178,7 +197,9 @@ class _GuitarSurfaceState extends State<GuitarSurface> {
           o.visibleNodes = count;
         }
         return Semantics(
-          label: 'Guitar timing. Six strings, high E to low E.',
+          label:
+              'Guitar timing. Six strings, high E to low E. '
+              '${o.leftHanded ? 'Left' : 'Right'}-handed view.',
           child: GestureDetector(
             onTapDown: (event) {
               TabNote? hit;
@@ -266,7 +287,8 @@ class GuitarPainter extends CustomPainter {
     final t = p.state, o = p.options;
     text(
       canvas,
-      o.effects ? 'PERSPECTIVE TAB' : 'FLAT TAB',
+      '${o.effects ? 'PERSPECTIVE TAB' : 'FLAT TAB'}'
+      '${o.leftHanded ? ' · LEFT-HANDED' : ''}',
       const Offset(16, 12),
       size: 10,
     );
@@ -289,7 +311,13 @@ class GuitarPainter extends CustomPainter {
             ..strokeWidth = 1,
         );
       }
-      text(canvas, '$s', a - const Offset(20, 0), center: true);
+      text(
+        canvas,
+        '$s',
+        a - const Offset(20, 0),
+        center: true,
+        size: math.min(11, p.stringSpacing(t.time) * .8),
+      );
     }
     for (final n in p.visible) {
       final a = p.point(n, math.max(t.time, n.start)),
@@ -305,19 +333,20 @@ class GuitarPainter extends CustomPainter {
             ..strokeCap = StrokeCap.round,
         );
       }
-      canvas.drawCircle(a, 10, Paint()..color = col);
+      final radius = p.markerRadius(math.max(t.time, n.start));
+      canvas.drawCircle(a, radius, Paint()..color = col);
       text(
         canvas,
         '${n.fret}',
         a,
         color: const Color(0xff102536),
         center: true,
-        size: 12,
+        size: math.min(12, radius * 1.55),
       );
       if (o.selection.contains(n.id)) {
         canvas.drawCircle(
           a,
-          14,
+          radius + 4,
           Paint()
             ..color = c.ink
             ..style = PaintingStyle.stroke

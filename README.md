@@ -2,13 +2,13 @@
 
 Practice a guitar passage with audible playback, moving Perspective TAB, and a Now + next view of current and upcoming string positions. Slow playback without changing pitch, loop a difficult passage, and save its settings for next time.
 
-[Live homepage](https://rollingtab.serverpod.space/) · [Play in Chrome](https://rollingtab.serverpod.space/play/) · [Judge walkthrough](docs/JUDGE_GUIDE.md)
+[Live homepage](https://rollingtab.serverpod.space/) · [Play in Chrome](https://rollingtab.serverpod.space/play/) · [Judge walkthrough](docs/JUDGE_GUIDE.md) · [Demo video script](docs/DEMO_VIDEO.md)
 
 ## What is included
 
 - Guest practice without sign-in; verified accounts save named passages.
 - Five scores matching the published collection: Paganini, Carulli Vals, Carcassi No. 11, Bach Bourrée, and Carulli La sautillante, plus authored studies.
-- Pitch-preserving speed from 25–150%, passage loops up to 60 score seconds, left-handed fretboards, light/dark appearance and reduced motion.
+- Pitch-preserving speed from 25–150%, passage loops up to 60 score seconds, left-handed perspective and fretboards, light/dark appearance and reduced motion.
 - Source TAB is labeled separately from inferred string/fret guidance. Positions are expected positions, not detected fingers. Email signup and password recovery use Serverpod verification codes delivered by Resend. Recognition and uploads are outside this submission.
 
 ## How it works
@@ -37,4 +37,4 @@ Open http://localhost:9895/play/ and press Play to enable audio. Existing servic
 
 [Submission handoff](docs/SUBMISSION_HANDOFF.md) lists the public repository, account acceptance and remaining video steps. [Verification](docs/VERIFICATION.md) distinguishes executed checks from pending acceptance. This source snapshot is separate from the author's development repository and contains no earlier Git history, raw internal review logs or sibling-project inventories.
 
-[Attribution](THIRD_PARTY.md) and [score credits](rollingtab_server/assets/scores/SOURCE_CREDITS.md) retain component origins and third-party licenses. The repository is supplied for private judging; no project-wide open-source license is granted.
+[Attribution](THIRD_PARTY.md) and [score credits](rollingtab_server/assets/scores/SOURCE_CREDITS.md) retain component origins and third-party licenses. The repository is publicly available for judging; no project-wide open-source license is granted.

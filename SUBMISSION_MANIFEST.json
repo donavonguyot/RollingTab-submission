@@ -95,8 +95,8 @@
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 7145,
-      "sha256": "fe09b605ba6ad2c9871cf2997a7e4a41f139c6254f4f779ae3eccf387d83c44a"
+      "bytes": 7553,
+      "sha256": "6250d5004cf5418053aefc3ada4388cb8739e27e78585fd1e328f095b9f4c0f4"
     },
     {
       "path": "hook/build.dart",

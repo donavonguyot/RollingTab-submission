@@ -4,7 +4,7 @@ This directory is a standalone five-score source snapshot for public judging. It
 
 - [x] Publish the cleaned snapshot in its own public repository; original history remains separate.
 - [x] Public repository access requires no judge invitations.
-- [ ] Verify hosted signup → save → reload → reopen and password recovery; retain a private fallback account. Do not commit credentials.
+- [x] Verify hosted signup and password recovery, plus Chrome sign-in → save → reload → reopen. Existing account access remains available; no credentials are committed.
 - [ ] Publish the actual application demo on YouTube/Vimeo, under two minutes, and supply its URL.
 - [ ] Review the project description and AI-tool disclosure for the submission form; distinguish adapted components from new work and confirm eligibility.
 - [ ] Submit and retain the receipt. Keep the live demo and judge access available throughout judging.

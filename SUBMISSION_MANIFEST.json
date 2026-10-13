@@ -80,18 +80,18 @@
     },
     {
       "path": "docs/JUDGE_GUIDE.md",
-      "bytes": 2347,
-      "sha256": "5078f1dd49f64b82ac6fe398e86d6351702944eaaf90b026ade0c44b799ae1b3"
+      "bytes": 2409,
+      "sha256": "c2cd12dae67eb8bab23da8ef58852af3d108e8611118ce6f137e373ee08594ff"
     },
     {
       "path": "docs/SUBMISSION_HANDOFF.md",
-      "bytes": 2512,
-      "sha256": "d7ef04621d0400830d814f3b5cf81b201345085afad3e0eb6c390be58d2ebe38"
+      "bytes": 2544,
+      "sha256": "903239c2fbc71ba71126a4922416dc04194fc211e18a5f6ee2247fd7441330da"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 4695,
-      "sha256": "887eb4bace22e85f966a40dd1fae2649337d7cd4d06b8bb36fe93789c59be180"
+      "bytes": 5817,
+      "sha256": "a103d9fc7954469958099549e07398d9e6c7436d2d3359532cbba3502552b7e7"
     },
     {
       "path": "hook/build.dart",

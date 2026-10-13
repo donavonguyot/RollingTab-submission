@@ -1,2 +1,4 @@
+# Integration suites bind the same configured Serverpod test ports.
+concurrency: 1
 tags:
-  integration: {}
+  integration:

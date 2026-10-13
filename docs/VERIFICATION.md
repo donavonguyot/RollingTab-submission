@@ -33,7 +33,8 @@ The original working files, Git HEAD, refs and pre-existing working-tree changes
 The submission repository now includes Serverpod email signup and password reset with Resend delivery. Domain verification and DNS records for `mail.rollingtab.com` passed. Production credentials remain outside source. Local end-to-end verification used ports 29993–29995 and PostgreSQL 54349 without stopping existing services.
 
 - Flutter: 53 tests passed; the four new auth tests cover scalar protocol results, structured errors, signup/password validation, reset navigation and disabled controls.
-- Server: auth tests cover signup, reset, revoked refresh tokens, generic duplicate/unknown email responses, failed delivery, expiry, exhausted/reused/replaced codes, password policy, concurrent requests and send budgets. Existing catalog and ownership tests remain passing.
+- Server: 19 tests passed. Auth tests cover signup, reset, revoked refresh tokens, generic duplicate/unknown email responses, failed delivery, expiry, exhausted/reused/replaced codes, password policy, concurrent requests and send budgets. Existing catalog and ownership tests remain passing.
 - Resend reported delivery to the authorized test inbox; local HTTP signup, cookie refresh and saved passage persistence at 73% with loop enabled passed.
 - Jaspr, Flutter Wasm and native-hook server builds passed. Route/media/header checks and all five score hashes passed. Browser inspection confirmed the new sign-in/signup/reset controls render correctly.
 - Hosted rollout and final browser acceptance are recorded after execution; local results alone do not establish hosted completion.
+- The integration suites share configured ports; `dart_test.yaml` serializes test files to avoid intermittent bind conflicts.
